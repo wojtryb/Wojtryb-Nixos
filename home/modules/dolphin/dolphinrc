@@ -1,0 +1,95 @@
+MenuBar=Disabled
+
+[DetailsMode]
+DirectorySizeCount=false
+ExpandableFolders=false
+HighlightEntireRow=false
+LeftPadding=0
+RightPadding=0
+
+[ExtractDialog]
+DP-0 Height 2560x1440=738
+DP-0 Width 2560x1440=1663
+DirHistory[$e]=$HOME/Downloads/,$HOME/Desktop/
+
+[General]
+BrowseThroughArchives=true
+ConfirmClosingMultipleTabs=false
+GlobalViewProps=false
+OpenNewTabAfterLastTab=true
+RememberOpenedTabs=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+ShowStatusBar=Disabled
+ShowZoomSlider=false
+Version=202
+ViewPropsTimestamp=2022,12,4,19,7,49.792
+
+[Icons]
+Theme=candy-icons
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=32
+detailViewIconSize=16
+
+[KPropertiesDialog]
+DP-0 Height 2560x1440=563
+DP-0 Height 3840x2160=675
+DP-0 Width 2560x1440=500
+DP-0 Width 3840x2160=659
+
+[MainWindow]
+DP-0 Height 1024x768=730
+DP-0 Height 1280x720=682
+DP-0 Height 2560x1440=787
+DP-0 Height 2671x1503=700
+DP-0 Height 2793x1571=759
+DP-0 Height 3840x2160=1052
+DP-0 Height 800x600=562
+DP-0 Width 1024x768=877
+DP-0 Width 1280x720=877
+DP-0 Width 2560x1440=789
+DP-0 Width 2671x1503=777
+DP-0 Width 2793x1571=774
+DP-0 Width 3840x2160=1139
+DP-0 Width 800x600=792
+DP-0 XPosition 2560x1440=425
+DP-0 XPosition 2671x1503=294
+DP-0 XPosition 2793x1571=1016
+DP-0 XPosition 3840x2160=2409
+DP-0 YPosition 2560x1440=464
+DP-0 YPosition 2671x1503=396
+DP-0 YPosition 2793x1571=487
+DP-0 YPosition 3840x2160=535
+DP-0.8 Height 3840x2160=1006
+DP-0.8 Width 3840x2160=1117
+MenuBar=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[Open-with settings]
+CompletionMode=1
+History=win,krit,dolp,kri,vlc,vie,ink,code,inks,inksc,cod,krita,firef,fire,vl
+
+[PlacesPanel]
+IconSize=32
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
+
+[Search]
+Location=Everywhere
+What=Content
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[ViewPropertiesDialog]
+DP-0 Height 3840x2160=715
+DP-0 Width 3840x2160=573
+
+# Change a theme. It can be installed as pkgs.sweet
+# [UiSettings] 
+# ColorScheme=Sweet

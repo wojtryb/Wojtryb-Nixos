@@ -5,6 +5,7 @@
     ./modules/firefox.nix
     ./modules/gnome.nix
     ./modules/git.nix
+    ./modules/dolphin
   ];
 
   home.username = "wojtryb";

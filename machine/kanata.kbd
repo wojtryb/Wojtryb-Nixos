@@ -1,0 +1,19 @@
+;; Reprogram given keys to other ones 
+
+;; https://github.com/jtroo/kanata/blob/main/parser/src/keys/mod.rs
+
+;; (defcfg process-unmapped-keys no)
+
+(defsrc)
+(deflayermap (base-layer)
+  Delete PrintScreen
+
+  Home Delete
+  PageUp MediaPlayPause
+  PageDown Home
+
+  ControlRight MetaRight ;; mouseright
+  CapsLock XX
+
+  VolumeMute power
+)

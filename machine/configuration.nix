@@ -3,6 +3,7 @@
 {
   imports = [
       ./hardware-configuration.nix
+      ./modules/krita.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
@@ -147,7 +148,6 @@
     kdePackages.kate
     kdePackages.konsole
     
-    pkgs.krita
     pkgs.vscode
     pkgs.blender
     pkgs.spotify

@@ -1,0 +1,1348 @@
+AlsoSaveAsKra=false
+AntialiasSelectionOutline=false
+ArtColorSel.ColorSpace=0
+ArtColorSel.InversedSaturation=false
+ArtColorSel.Light=0.43143476620958904
+ArtColorSel.LightPieces=11
+ArtColorSel.NumRings=7
+ArtColorSel.RingPieces=12
+ArtColorSel.SelColorH=0.020074119827053857
+ArtColorSel.SelColorS=0.04690904757883966
+ArtColorSel.SelColorX=0.43143476620958904
+ArtColorSel.defaultHueSteps=12
+ArtColorSel.defaultSaturationSteps=7
+ArtColorSel.defaultValueScaleSteps=11
+ArtColorSel.enforceGamutMask=false
+ArtColorSel.lumaB=0.0722
+ArtColorSel.lumaG=0.7152
+ArtColorSel.lumaGamma=2.2
+ArtColorSel.lumaR=0.2126
+ArtColorSel.showBgColor=true
+ArtColorSel.showValueScale=false
+AutoSaveInterval=180
+BackgroundColorForNewImage=100,100,100
+BackgroundOpacityForNewImage=255
+BackgroundStyleForNewImage=0
+CanvasOnlyActive=false
+CanvasSize/ConstrainProportions=false
+CanvasSize/KeepAspectRatio=false
+ColorManagement/UseSystemMonitorProfile=false
+ConvertToImageColorSpaceOnImport=false
+CreateBackupFile=true
+CurrentWorkspace=tuto
+ExportConfiguration-image/jpeg=<!DOCTYPE params>\n<params>\n <param name="baseline" type="internal">true</param>\n <param name="exif" type="internal">true</param>\n <param name="filters" type="string"><![CDATA[]]></param>\n <param name="forceSRGB" type="internal">false</param>\n <param name="iptc" type="internal">true</param>\n <param name="optimize" type="internal">true</param>\n <param name="progressive" type="internal">false</param>\n <param name="quality" type="internal">100</param>\n <param name="saveProfile" type="internal">true</param>\n <param name="smoothing" type="internal">0</param>\n <param name="storeAuthor" type="internal">false</param>\n <param name="storeMetaData" type="internal">false</param>\n <param name="subsampling" type="internal">0</param>\n <param name="transparencyFillcolor" type="color"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB space="sRGB-elle-V2-g10.icc" r="1" g="1" b="1"/>\n</color>\n]]></param>\n <param name="xmp" type="internal">true</param>\n</params>\n
+ExportConfiguration-image/png=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha">true</param>\n <param type="internal" name="compression">9</param>\n <param type="internal" name="downsample">false</param>\n <param type="internal" name="forceSRGB">true</param>\n <param type="internal" name="indexed">false</param>\n <param type="internal" name="interlaced">false</param>\n <param type="internal" name="saveAsHDR">false</param>\n <param type="internal" name="saveSRGBProfile">false</param>\n <param type="internal" name="storeAuthor">false</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="color" name="transparencyFillcolor"><![CDATA[<!DOCTYPE color>\n<color>\n <RGB r="1" b="1" g="1" space="sRGB-elle-V2-g10.icc"/>\n</color>\n]]></param>\n</params>\n
+ExportConfiguration-image/webp=<!DOCTYPE params>\n<params>\n <param type="internal" name="alpha_compression">1</param>\n <param type="internal" name="alpha_filtering">1</param>\n <param type="internal" name="alpha_quality">100</param>\n <param type="internal" name="autofilter">false</param>\n <param type="internal" name="dithering">true</param>\n <param type="internal" name="emulate_jpeg_size">false</param>\n <param type="internal" name="exact">false</param>\n <param type="internal" name="exif">true</param>\n <param type="internal" name="filter_sharpness">0</param>\n <param type="internal" name="filter_strength">60</param>\n <param type="internal" name="filter_type">1</param>\n <param type="string" name="filters"><![CDATA[]]></param>\n <param type="internal" name="haveAnimation">true</param>\n <param type="internal" name="lossless">true</param>\n <param type="internal" name="low_memory">false</param>\n <param type="internal" name="method">4</param>\n <param type="internal" name="near_lossless">100</param>\n <param type="internal" name="partition_limit">0</param>\n <param type="internal" name="partitions">0</param>\n <param type="internal" name="pass">1</param>\n <param type="internal" name="preprocessing">0</param>\n <param type="internal" name="preset">0</param>\n <param type="internal" name="qmax">100</param>\n <param type="internal" name="qmin">0</param>\n <param type="internal" name="quality">75</param>\n <param type="internal" name="segments">4</param>\n <param type="internal" name="show_compressed">false</param>\n <param type="internal" name="sns_strength">50</param>\n <param type="internal" name="storeMetaData">false</param>\n <param type="internal" name="target_PSNR">0</param>\n <param type="internal" name="target_size">0</param>\n <param type="internal" name="thread_level">true</param>\n <param type="internal" name="use_sharp_yuv">false</param>\n <param type="internal" name="xmp">true</param>\n</params>\n
+ExrDefaultColorProfile=sRGB-elle-V2-g10.icc
+FetchNews=true
+FilterSelector/LastUsedFilter=hsvadjustment
+GamutMasks.viewMode=0
+KineticScrollingEnabled=true
+KineticScrollingGesture=2
+KineticScrollingHideScrollbar=true
+KineticScrollingSensitivity=75
+KisDlgPreferences/CurrentPage=general
+Krita/Ocio/DisplayDevice=sRGB
+Krita/Ocio/DisplayLook=None
+Krita/Ocio/DisplayView=Raw
+Krita/Ocio/InputColorSpace=raw
+Krita/Ocio/OcioColorManagementMode=0
+Krita/Ocio/OcioConfigPath=
+Krita/Ocio/OcioLockColorVisualRepresentation=false
+Krita/Ocio/OcioLutPath=
+Krita/Ocio/UseOcio=false
+LastBackGroundColor=<!DOCTYPE LastBackGroundColor>\n<LastBackGroundColor>\n <RGB b="1" r="1" g="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastBackGroundColor>\n
+LastColorHistory=<!DOCTYPE LastColorHistory>\n<colors>\n <RGB b="0.152941182255745" g="0.454901963472366" r="0.964705884456635" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.30588236451149" g="0.937254905700684" r="0.239215686917305" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.847058832645416" g="0.768627464771271" r="0.24705882370472" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="1" r="1" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.619607865810394" g="0.368627458810806" r="0.0980392172932625" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.768627464771271" g="0.498039215803146" r="0.196078434586525" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.607843160629272" g="0.356862753629684" r="0.0862745121121407" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.603921592235565" g="0.356862753629684" r="0.0901960805058479" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.815686285495758" g="0.537254929542542" r="0.23137255012989" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.61176472902298" g="0.356862753629684" r="0.0784313753247261" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.890196084976196" g="0.517647087574005" r="0.113725490868092" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.176470592617989" g="0.10196078568697" r="0.0235294122248888" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.666666686534882" g="0.400000005960464" r="0.117647059261799" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.694117665290833" g="0.415686279535294" r="0.117647059261799" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.796078443527222" g="0.466666668653488" r="0.109803922474384" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.368627458810806" g="0.250980406999588" r="0.129411771893501" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.149019613862038" g="0.0862745121121407" r="0.0196078438311815" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.788235306739807" g="0.458823531866074" r="0.10196078568697" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.360784322023392" g="0.219607844948769" r="0.0705882385373116" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="1" g="0.521568655967712" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.109803922474384" g="0.109803922474384" r="0.109803922474384" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.874509811401367" g="0.52549022436142" r="0.141176477074623" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0" g="0" r="0" space="sRGB-elle-V2-srgbtrc.icc"/>\n <RGB b="0.772549033164978" g="0.61176472902298" r="0.43529412150383" space="sRGB-elle-V2-srgbtrc.icc"/>\n</colors>\n
+LastEraser_-1=a) Eraser Small
+LastEraser_0=a) Eraser Circle
+LastEraser_3398686488131=a) Eraser Circle
+LastForeGroundColor=<!DOCTYPE LastForeGroundColor>\n<LastForeGroundColor>\n <RGB b="0.423529416322708" r="0.454901963472366" g="0.427450984716415" space="sRGB-elle-V2-srgbtrc.icc"/>\n</LastForeGroundColor>\n
+LastPreset=wojtryb6 R 24 knife
+LastPreset_-1=wojtryb6 R 24 knife
+LineSmoothingDelayDistance=50
+LineSmoothingDistance=50
+LineSmoothingDistanceKeepAspectRatio=true
+LineSmoothingDistanceMax=50
+LineSmoothingDistanceMin=50
+LineSmoothingFinishStabilizedCurve=true
+LineSmoothingScalableDistance=true
+LineSmoothingSmoothPressure=false
+LineSmoothingStabilizeSensors=true
+LineSmoothingTailAggressiveness=0.15
+LineSmoothingType=1
+LineSmoothingUseDelayDistance=true
+NumberOfLayersForNewImage=1
+OpenGLFilterMode=3
+PinnedFonts=Momentz,El Abogado Loco,flatline,Ubuntu
+ResourceDirectory=/home/wojtryb/.local/share/krita
+ResourceItemsRM.viewMode=1
+ShowEraserOutlineWhilePainting=true
+ShowOutlineWhilePainting=true
+ShowRootLayer=false
+SmoothZooming=false
+SpecificColorSelector/HsxMode=0
+SpecificColorSelector/UseHsx=false
+SpecificColorSelector/UsePercentage=false
+ToolOptionsInDocker=true
+TrimFramesImport=false
+TrimKra=false
+UseZip64=false
+activateTransformToolAfterPaste=false
+adaptivePlaybackRange=true
+allowLCMSOptimization=true
+amdDisableVectorWorkaround=false
+animationCacheFrameSizeLimit=2500
+animationCacheRegionOfInterestMargin=0.25
+antialiascurves=true
+assistantsDrawMode=0
+autoPinLayers=true
+autosavefileshidden=true
+backupfilelocation=0
+backupfilesuffix=~
+baseLength=60
+brushEditorSplitterSizes=284,819,266
+brushEditorWindowGeometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x8a\x00\x00\x01O\x00\x00\x05(\x00\x00\x04^\x00\x00\x00\x8e\x00\x00\x01q\x00\x00\x05$\x00\x00\x04Z\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x8e\x00\x00\x01q\x00\x00\x05$\x00\x00\x04Z
+brushHudSettings=<!DOCTYPE hud_properties>\n<hud_properties>\n <version value="1" type="value"/>\n <paintbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="angle" type="value"/>\n  </properties_list>\n </paintbrush>\n <colorsmudge>\n  <properties_list type="array">\n   <item_0 value="angle" type="value"/>\n   <item_1 value="size" type="value"/>\n   <item_2 value="opacity" type="value"/>\n   <item_3 value="smudge_mode" type="value"/>\n   <item_4 value="smudge_length" type="value"/>\n   <item_5 value="smudge_color_rate" type="value"/>\n  </properties_list>\n </colorsmudge>\n <sketchbrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="size" type="value"/>\n  </properties_list>\n </sketchbrush>\n <hairybrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n  </properties_list>\n </hairybrush>\n <experimentbrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="shape_windingfill" type="value"/>\n  </properties_list>\n </experimentbrush>\n <spraybrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="spray_particlecount" type="value"/>\n   <item_3 value="spray_density" type="value"/>\n  </properties_list>\n </spraybrush>\n <hatchingbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="hatching_angle" type="value"/>\n   <item_3 value="hatching_thickness" type="value"/>\n   <item_4 value="hatching_separation" type="value"/>\n  </properties_list>\n </hatchingbrush>\n <gridbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="grid_divisionlevel" type="value"/>\n  </properties_list>\n </gridbrush>\n <curvebrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="curve_historysize" type="value"/>\n   <item_2 value="curve_linewidth" type="value"/>\n   <item_3 value="curve_lineopacity" type="value"/>\n   <item_4 value="curve_connectionline" type="value"/>\n  </properties_list>\n </curvebrush>\n <dynabrush>\n  <properties_list type="array">\n   <item_0 value="dyna_diameter" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="dyna_mass" type="value"/>\n   <item_3 value="dyna_drag" type="value"/>\n  </properties_list>\n </dynabrush>\n <particlebrush>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="particle_particles" type="value"/>\n   <item_2 value="particle_opecityweight" type="value"/>\n   <item_3 value="particle_iterations" type="value"/>\n  </properties_list>\n </particlebrush>\n <duplicate>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="clone_healing" type="value"/>\n   <item_3 value="clone_movesource" type="value"/>\n  </properties_list>\n </duplicate>\n <deformbrush>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n   <item_2 value="deform_amount" type="value"/>\n   <item_3 value="deform_mode" type="value"/>\n  </properties_list>\n </deformbrush>\n <tangentnormal>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n  </properties_list>\n </tangentnormal>\n <filter>\n  <properties_list type="array">\n   <item_0 value="size" type="value"/>\n   <item_1 value="opacity" type="value"/>\n  </properties_list>\n </filter>\n <roundmarker>\n  <properties_list type="array">\n   <item_0 value="opacity" type="value"/>\n   <item_1 value="size" type="value"/>\n  </properties_list>\n </roundmarker>\n</hud_properties>\n
+calculateAnimationCacheInBackground=true
+canvasBorderColor=40,40,40
+canvasState=OPENGL_SUCCESS
+canvasizedlg_heightunit=px
+canvasizedlg_widthunit=px
+canvasizedlg_xoffsetunit=px
+canvasizedlg_yoffsetunit=px
+checkerscolor=81,81,81
+checkerscolor2=97,97,97
+checksize=64
+colorDepthDef=U8
+colorModelDef=RGBA
+colorProfileDef=sRGB-elle-V2-srgbtrc.icc
+colorsettings/forcepalettecolors=false
+compressLayersInKra=false
+cumulativeUndoExcludeFromMerge=10
+cumulativeUndoMaxGroupDuration=5000
+cumulativeUndoMaxGroupSeparation=1000
+cumulativeUndoMergeTimeout=5000
+currentInputProfile=Krita Default
+cursorMaincColor=128,255,128
+custom_font_size=9
+custom_system_font=Ubuntu
+defaultExportMimeType=image/png
+defaultPalette=Default
+defaultProofingAdaptationState=1
+defaultProofingBlackpointCompensation=true
+defaultProofingConversionIntent=1
+defaultProofingDisplayBlackpointCompensation=true
+defaultProofingDisplayMode=1
+defaultProofingGamutwarning=0,255,0
+defaultProofingProfileDepth=U8
+defaultProofingProfileIntent=3
+defaultProofingProfileModel=CMYKA
+defaultProofingProfileName=Chemical proof
+disableTouchOnCanvas=false
+enableBrushSpeedLogging=false
+enableOpenGLFramerateLogging=false
+enablePerfLog=false
+enableProgressReporting=true
+eraserCursorMaincColor=255,128,128
+eraserCursorStyle=9
+eraserOutlineStyle=2
+favoritePresetsTag=wojtryb
+filterdialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\t)\x00\x00\x03\x7f\x00\x00\x0cH\x00\x00\x061\x00\x00\t-\x00\x00\x03\xad\x00\x00\x0cD\x00\x00\x06-\x00\x00\x00\x00\x00\x00\x00\x00\x0f\x00\x00\x00\t-\x00\x00\x03\xad\x00\x00\x0cD\x00\x00\x06-
+filterdialog/rememberlastpreset=false
+forceAlwaysFullSizedEraserOutline=false
+forceAlwaysFullSizedOutline=false
+forcedDpiForQtFontBugWorkaround=-1
+fpsLimit=100
+frameRenderingClones=8
+frameRenderingTimeout=30000
+fullscreenMode=false
+generatordialog/geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x04\x8c\x00\x00\x02\x8a\x00\x00\x07O\x00\x00\x04]\x00\x00\x04\x90\x00\x00\x02\xac\x00\x00\x07K\x00\x00\x04Y\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x04\x90\x00\x00\x02\xac\x00\x00\x07K\x00\x00\x04Y
+globalSnapBoundingBox=false
+globalSnapExtension=false
+globalSnapImageBounds=false
+globalSnapImageCenter=false
+globalSnapIntersection=false
+globalSnapNode=false
+globalSnapOrthogonal=false
+globalSnapToPixel=false
+gridisoverticalcolor=150,150,150
+gridisoverticalstyle=0
+gridmaincolor=99,99,99
+gridmainstyle=0
+gridsubdivisioncolor=150,150,150
+gridsubdivisionstyle=1
+guidesColor=99,99,99
+guidesLineStyle=0
+hideDevFundBanner=true
+hideDockersFullScreen=true
+hideMenuFullScreen=true
+hidePopups=false
+hideScrollbars=true
+hideScrollbarsFullScreen=true
+hideStatusbarFullScreen=true
+hideTitleBarFullscreen=true
+hideToolbarFullscreen=true
+ignoreHighFunctionKeys=true
+imageHeightDef=4260
+imageResolutionDef=300
+imageWidthDef=4000
+imagesizedlg_imsizeunit=px
+imagesizedlg_printSizeSeparatly=false
+imagesizedlg_ratioLock=true
+imagesizedlg_resunit=Pixels/Inch
+imagesizedlg_sizeunit=mm
+internal_selector_active_color_set=Animation Color Set
+internal_selector_active_color_set_md5=8e071366587a400f1db855c27014a5ec
+layerInfoTextOpacity=55
+layerInfoTextStyle=2
+layerThumbnailSize=66
+layerTreeIndentation=62
+layersizedlg_heightunit=px
+layersizedlg_keepar=true
+layersizedlg_keepprop=true
+layersizedlg_widthunit=px
+levelOfDetailEnabled=false
+logviewer_enabled=false
+maxAllowedSpeedValue=30
+maxSwapSize=4096
+maximumBrushSize=1000
+mdiBackgroundColorXML=<!DOCTYPE color>\n<color channeldepth="U8">\n <RGB b="0.301960796117783" r="0.301960796117783" g="0.301960796117783" space="sRGB-elle-V2-srgbtrc.icc"/>\n</color>\n
+mdiBackgroundImage=
+mdi_rubberband=1
+mdi_viewmode=0
+memoryHardLimitPercent=75
+memoryPoolLimitPercent=0
+memorySoftLimitPercent=2
+monitorProfile=sRGB-elle-V2-srgbtrc.icc
+monitorProfile/OverrideX11=false
+monitorProfileDell Inc._DELL U2515H_9X2VY6AE0MWL=sRGB-elle-V2-srgbtrc.icc
+monitorProfileDell Inc._DELL U2725QE_91W4684=sRGB-elle-V2-srgbtrc.icc
+moveToolChangedValueX=1554
+moveToolChangedValueY=1923
+moveToolMode=0
+moveToolShowCoordinates=true
+moveToolUnit=0
+needsPixmapCacheWorkaround=true
+newCursorStyle=0
+newOutlineStyle=2
+numFavoritePresets=45
+numberOfOnionSkins=10
+numberofbackupfiles=1
+oninSkinTintColorForward=0,255,0
+onionSkinOpacity_-1=173
+onionSkinOpacity_-10=22
+onionSkinOpacity_-2=163
+onionSkinOpacity_-3=147
+onionSkinOpacity_-4=130
+onionSkinOpacity_-5=107
+onionSkinOpacity_-6=86
+onionSkinOpacity_-7=66
+onionSkinOpacity_-8=48
+onionSkinOpacity_-9=35
+onionSkinOpacity_0=178
+onionSkinOpacity_1=173
+onionSkinOpacity_10=22
+onionSkinOpacity_2=163
+onionSkinOpacity_3=147
+onionSkinOpacity_4=130
+onionSkinOpacity_5=107
+onionSkinOpacity_6=86
+onionSkinOpacity_7=66
+onionSkinOpacity_8=48
+onionSkinOpacity_9=35
+onionSkinState_-1=true
+onionSkinState_-10=false
+onionSkinState_-2=true
+onionSkinState_-3=false
+onionSkinState_-4=false
+onionSkinState_-5=false
+onionSkinState_-6=false
+onionSkinState_-7=false
+onionSkinState_-8=false
+onionSkinState_-9=false
+onionSkinState_0=true
+onionSkinState_1=true
+onionSkinState_10=false
+onionSkinState_2=true
+onionSkinState_3=false
+onionSkinState_4=false
+onionSkinState_5=false
+onionSkinState_6=false
+onionSkinState_7=false
+onionSkinState_8=false
+onionSkinState_9=false
+onionSkinTintColorBackward=255,0,0
+onionSkinTintFactor=191
+pasteBehaviour=0
+pasteFormat=1
+pixelGridColor=255,255,255
+pixelGridDrawingThreshold=24
+popuppalette/colorHistorySorting=hsv
+popuppalette/selectorSize=140
+popuppalette/showColorHistory=false
+popuppalette/showRotationTrack=true
+popuppalette/size=385
+popuppalette/useDynamicSlotCount=true
+popuppalette/usevisualcolorselector=false
+presetStripVisible=true
+presethistory=wojtryb6 R 12 messy blobs Aaron,wojtryb6 R 03 square strong impasto,krita5 prototype 4,wojtryb6 R 04 square twoSided impasto,wojtryb6 R 01 horizontal DA,b) Airbrush Soft,wojtryb6 R 24 knife,wojtryb6 R 02a square DA impasto,wojtryb6 R 21 moveTool Ramon,wojtryb6 R 08 gradient Rakurri impasto
+renameDuplicatedLayers=true
+renameMergedLayers=false
+renamePastedLayers=false
+renderIntent=0
+rulersTrackMouse=true
+saveSessionOnQuit=false
+scratchpadVisible=true
+scrollingcheckers=false
+selectionOutlineOpacity=1
+selectionOverlayMaskColor=255,0,0,128
+separateEraserCursor=true
+sessionOnStartup=0
+setShowFilterGalleryLayerMaskDialog=true
+showAdditionalOnionSkinsSettings=true
+showBrushHud=true
+showDockers=true
+showFilterGallery=true
+showOnCanvasMessages=false
+showPaletteBottomBar=true
+showSingleChannelAsColor=false
+showStatusBar=false
+showrulers=false
+speedValueSmoothing=3
+swaplocation=/tmp
+switchSelectionCtrlAlt=false
+tabletPressureCurve=0,0;0.796034,1;
+tiltDirectionOffset=0
+toolbarslider_1=opacity
+toolbarslider_2=patternsize
+toolbarslider_3=rotation
+toolbarslider_4=flow
+toolbarslider_5=flow
+touchPainting=0
+undoStackLimit=100
+useAnimationCacheFrameSizeLimit=true
+useAnimationCacheRegionOfInterest=true
+useBlackPointCompensation=true
+useCreamyAlphaDarken=true
+useCumulativeUndoRedo=false
+useDefaultColorSpace=false
+useEraserBrushOpacity=true
+useEraserBrushSize=false
+useInlineLayerInfoText=false
+useLayerSelectionCheckbox=false
+useOnDiskAnimationCacheSwapping=true
+useOpenGLTextureBuffer=true
+useRightMiddleTabletButtonWorkaround=false
+useSubtractiveBlendingForCmykColorSpaces=true
+useTimestampsForBrushSpeed=false
+useTouchPressureSensitivity=true
+use_custom_system_font=true
+zoomHorizontal=false
+zoomMarginSize=0
+zoomSteps=2
+
+[File Dialogs]
+Choose the resource library to import=/home/wojtryb/Downloads
+DontUseNativeFileDialog=true
+OpenDocument=/home/wojtryb/Pictures/kra
+OpenReferenceImage=/home/wojtryb/Pictures/screenshots
+SaveAs=/home/wojtryb/Code/NudeMelinoe/png
+krita_resources=/home/wojtryb/Downloads
+resource_directory=/mnt/data
+
+[GenericGradientEditor]
+global/compactGradientPresetChooserMode=false
+global/useGradientPresetChooserPopUp=true
+
+[GradientChooser]
+global/itemSize=medium
+global/itemSizeCustom=32
+global/viewMode=icon
+
+[KisAssistantTool]
+AssistantType=two point
+
+[KisResourceItemChooser_paintoppresets]
+splitterState_1row=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\xff\xff\xff\xff\xff\xff\xff\xff\x01\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[KisShortcutsDialog Settings]
+Dialog Size=1114,790
+
+[KisToolCrop]
+allowGrow=false
+cropType=1
+decoration=1
+growCenter=false
+
+[KisToolPath]
+outlineType=1
+patternTransformScale=100
+
+[KisToolPencil]
+outlineType=1
+patternTransformScale=100
+
+[KisToolPolygon]
+outlineType=1
+patternTransformScale=100
+
+[KisToolPolyline]
+outlineType=1
+patternTransformScale=100
+
+[KisToolSelectBase]
+selectionAction=1
+
+[KisToolSelectContiguous]
+featherSelection=0
+sampleLayersMode=sampleAllLayers
+threshold=20
+
+[KisToolSelectElliptical]
+roundCornersX=0
+roundCornersY=0
+
+[KisToolSelectRectangular]
+roundCornersX=0
+roundCornersY=0
+
+[KisToolSelectSimilar]
+sampleLayersMode=sampleAllLayers
+threshold=8
+
+[KisToolTransform]
+forceLodMode=true
+meshShowHandles=false
+useOverlayPreviewStyle=false
+
+[KoToolBox]
+iconSize=22
+layoutDir=2
+
+[KritaFill/KisToolFill]
+closeGapAmount=32
+growSelection=2
+
+[KritaFill/KisToolGradient]
+shape=0
+
+[KritaShape/KisToolDyna]
+angleAmount=20
+dragAmount=0.98
+massAmount=0.01
+
+[KritaShape/KisToolEllipse]
+fillType=1
+outlineType=0
+patternTransformScale=100
+roundCornersX=0
+roundCornersY=0
+
+[KritaShape/KisToolMultiBrush]
+handsCount=5
+showAxes=false
+transformMode=0
+
+[KritaShape/KisToolRectangle]
+fillType=1
+outlineType=0
+patternTransformScale=100
+roundCornersX=0
+roundCornersY=0
+
+[KritaTransform/KisToolMove]
+forceLodMode=false
+
+[LiquifyTool]
+mode=0
+
+[LiquifyTool/Move]
+amount=0.05
+amountHasPressure=false
+flow=0.2
+reverseDirection=false
+size=967.2066364872176
+sizeHasPressure=false
+spacing=0.2
+useWashMode=false
+
+[MainWindow]
+2560x1440 screen: Height=960
+2560x1440 screen: Width=1706
+2560x1440 screen: Window-Maximized=true
+DP-0 Height 1280x720 DP-0=720
+DP-0 Height 1920x1080 DP-0=720
+DP-0 Height 2560x1440 DP-0=1129
+DP-0 Height 2793x1571 DP-0=1571
+DP-0 Height 3840x2160 DP-0=2160
+DP-0 Width 1280x720 DP-0=1280
+DP-0 Width 1920x1080 DP-0=1280
+DP-0 Width 2560x1440 DP-0=1739
+DP-0 Width 2793x1571 DP-0=2793
+DP-0 Width 3840x2160 DP-0=3840
+DP-0 Window-Maximized 2560x1440 DP-0=true
+DP-0 Window-Maximized 2671x1503 DP-0=true
+DP-0 Window-Maximized 2743x1543 DP-0=true
+Height 1080=1080
+Height 1108=738
+Height 1440=1440
+Height 720=720
+State=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AAAAFABHAHIAaQBkAEQAbwBjAGsAZQByAAAAAAD/////AAABLwD////7AAAAHgBIAGkAcwB0AG8AZwByAGEAbQBEAG8AYwBrAGUAcgAAAAAA/////wAAAEkA////+wAAACoAQQBuAGkAbQBhAHQAaQBvAG4AQwB1AHIAdgBlAHMARABvAGMAawBlAHIAAAAAAP////8AAACcAP////sAAAAyAFMAdgBnAFMAeQBtAGIAbwBsAEMAbwBsAGwAZQBjAHQAaQBvAG4ARABvAGMAawBlAHIAAAAAAP////8AAACzAP////sAAAAWAFQAbwB1AGMAaABEAG8AYwBrAGUAcgAAAAJMAAABMQAAABcA////+wAAABoAQQByAHIAYQBuAGcAZQBEAG8AYwBrAGUAcgAAAAAA/////wAAAEoA////+wAAADoAYwBvAG0AaQBjAHMAXwBwAHIAbwBqAGUAYwB0AF8AbQBhAG4AYQBnAGUAcgBfAGQAbwBjAGsAZQByAAAAAAD/////AAAA5wD////7AAAAKgBxAHUAaQBjAGsAXwBzAGUAdAB0AGkAbgBnAHMAXwBkAG8AYwBrAGUAcgAAAAAA/////wAAALQA////+wAAABYAUABhAGcAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAJgBsAGEAcwB0AGQAbwBjAHUAbQBlAG4AdABzAGQAbwBjAGsAZQByAAAAAAD/////AAAApgD////7AAAAEgBHAGEAbQB1AHQATQBhAHMAawAAAAAA/////wAAAPkA////+wAAABAAUwBuAGEAcABzAGgAbwB0AAAAAt8AAACkAAAAswD////7AAAAEgBMAG8AZwBEAG8AYwBrAGUAcgAAAAAA/////wAAAK8A////+wAAACAAUwB0AG8AcgB5AGIAbwBhAHIAZABEAG8AYwBrAGUAcgAAAAAA/////wAAANQA////+wAAABwAUgBlAGMAbwByAGQAZQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAhwD////7AAAALABXAGkAZABlAEcAYQBtAHUAdABDAG8AbABvAHIAUwBlAGwAZQBjAHQAbwByAAAAAAD/////AAAAzAD///8AAAACAAAKAAAAALz8AQAAAAH7AAAAGgBUAG8AbwBsAEIAYQByAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAAAAAADAAAAAAAAAAD8AQAAAAT7AAAAHABGAGwAaQBwAGIAbwBvAGsARABvAGMAawBlAHIAAAAAAP////8AAAAAAAAAAPsAAAAeAEEAbgBpAG0AYQB0AGkAbwBuAEQAbwBjAGsAZQByAAAAAAD/////AAAAAAAAAAD7AAAAIABPAG4AaQBvAG4AUwBrAGkAbgBzAEQAbwBjAGsAZQByAAAAAAD/////AAABkwD////7AAAAHABUAGkAbQBlAGwAaQBuAGUARABvAGMAawBlAHIAAAAAAP////8AAAPLAP///wAADLwAAAgrAAAABAAAAAQAAAAIAAAACPwAAAACAAAAAgAAAAAAAAADAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAAAAAAD/////AAAAAAAAAAAAAAAeAEIAcgB1AHMAaABlAHMAQQBuAGQAUwB0AHUAZgBmAQAAAAAAAAlFAAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1280=1280
+Width 1920=1920
+Width 1969=1312
+Width 2560=2560
+Window-Maximized 360x640=true
+Window-Maximized 720x1280=true
+XWAYLAND0 XWAYLAND1 Height 2560x1440 XWAYLAND0=1440
+XWAYLAND0 XWAYLAND1 Width 2560x1440 XWAYLAND0=2560
+ko_geometry=AdnQywADAAAAAAAAAAAAAAAADv8AAAhvAAACgAAAAWgAAAx/AAAHBwAAAAAABAAADwAAAAAAAAAAAAAADv8AAAhv
+
+[MainWindow][DockWidget AnimationCurvesDocker]
+DockArea=2
+Locked=false
+height=480
+width=640
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget ArrangeDocker]
+DockArea=2
+Locked=false
+height=264
+width=222
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget ArtisticColorSelector]
+DockArea=2
+Locked=false
+height=284
+width=334
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget BrushHudDocker]
+DockArea=2
+Locked=false
+height=30
+width=100
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget ChannelDocker]
+DockArea=2
+Locked=false
+height=30
+width=100
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget ColorSelectorNg]
+DockArea=2
+Locked=false
+height=459
+width=640
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget CompositionDocker]
+DockArea=2
+Locked=false
+height=300
+width=400
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget DigitalMixer]
+DockArea=2
+Locked=false
+height=30
+width=100
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget GamutMask]
+DockArea=2
+Locked=false
+height=322
+width=363
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget GridDocker]
+DockArea=2
+Locked=false
+height=527
+width=258
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget HistogramDocker]
+DockArea=2
+Locked=false
+height=459
+width=640
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget History]
+DockArea=2
+Locked=false
+height=459
+width=640
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget KisLayerBox]
+DockArea=2
+Locked=false
+height=1218
+width=528
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget LogDocker]
+DockArea=2
+Locked=false
+height=260
+width=400
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget LutDocker]
+DockArea=2
+Locked=false
+height=328
+width=357
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget OnionSkinsDocker]
+DockArea=8
+Locked=false
+height=282
+width=336
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget OverviewDocker]
+DockArea=2
+Locked=false
+height=125
+width=100
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget PaletteDocker]
+DockArea=2
+Locked=false
+height=422
+width=340
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget PatternDocker]
+DockArea=2
+Locked=false
+height=369
+width=231
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget PresetDocker]
+DockArea=2
+Locked=false
+height=459
+width=640
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget PresetHistory]
+DockArea=2
+Locked=false
+height=30
+width=100
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget RecorderDocker]
+DockArea=2
+Locked=false
+height=369
+width=277
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget SmallColorSelector]
+DockArea=2
+Locked=false
+height=459
+width=640
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget Snapshot]
+DockArea=2
+Locked=false
+height=30
+width=100
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget SpecificColorSelector]
+DockArea=2
+Locked=false
+height=207
+width=268
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget StoryboardDocker]
+DockArea=2
+Locked=false
+height=561
+width=604
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget SvgSymbolCollectionDocker]
+DockArea=2
+Locked=false
+height=459
+width=640
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget TasksetDocker]
+DockArea=2
+Locked=false
+height=300
+width=400
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget TextProperties]
+DockArea=2
+Locked=false
+height=100
+width=0
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget TimelineDocker]
+DockArea=8
+Locked=false
+height=50
+width=100
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget ToolBox]
+DockArea=1
+Locked=false
+height=2070
+width=32
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget TouchDocker]
+DockArea=2
+Locked=false
+height=341
+width=116
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget WideGamutColorSelector]
+DockArea=2
+Locked=false
+height=480
+width=640
+xPosition=0
+yPosition=0
+
+[MainWindow][DockWidget blender_layer]
+DockArea=2
+Locked=false
+height=1111
+width=275
+xPosition=0
+yPosition=16
+
+[MainWindow][DockWidget comics_project_manager_docker]
+DockArea=2
+Locked=false
+height=459
+width=640
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget lastdocumentsdocker]
+DockArea=2
+Locked=false
+height=459
+width=640
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget pluginDevToolsDocker]
+DockArea=8
+Locked=false
+height=731
+width=2560
+xPosition=0
+yPosition=16
+
+[MainWindow][DockWidget pykrita_workflow_buttons]
+DockArea=2
+Locked=false
+height=462
+width=640
+xPosition=0
+yPosition=18
+
+[MainWindow][DockWidget quick_settings_docker]
+DockArea=2
+Locked=false
+height=459
+width=640
+xPosition=0
+yPosition=21
+
+[MainWindow][DockWidget sharedtooldocker]
+DockArea=2
+Locked=false
+height=780
+width=528
+xPosition=0
+yPosition=21
+
+[OverviewDocker]
+pinControls=true
+
+[Pick brush presets (green)]
+Pie scale=1.2
+Tag=wojtryb_main
+Values=m) RGBA 01 Thick-dry\tm) RGBA 02 Thickpaint\tm) RGBA 03 Rake\tm) RGBA 04 Impasto\tm) RGBA 05 Impasto-details\tm) RGBA 06 Rock
+
+[Pick misc tools]
+Pie scale=1.1
+Values=CROP\tFREEHAND_BRUSH\tGRADIENT\tMULTI_BRUSH\tASSISTANTS\tREFERENCE
+
+[RecentFiles]
+File1[$e]=$HOME/Pictures/kra/418b.kra
+File10[$e]=$HOME/Pictures/kra/421.kra
+File11[$e]=$HOME/Pictures/kra/421b.kra
+File12[$e]=$HOME/Pictures/kra/421c.kra
+File13[$e]=$HOME/Pictures/kra/421d.kra
+File14[$e]=$HOME/Pictures/kra/421e.kra
+File15[$e]=$HOME/Pictures/kra/421f.kra
+File16[$e]=$HOME/Pictures/gotowe/gotowe 2025/hades_2/Portraits_Melinoe_Casual_01.png
+File17[$e]=$HOME/Pictures/kra/422.kra
+File18[$e]=$HOME/Pictures/kra/423.kra
+File19[$e]=$HOME/Pictures/kra/424.kra
+File2[$e]=$HOME/.steam/steam/steamapps/common/Hades II/Content/Packages/1080p/Melinoe/textures/atlases/..\\Temp\\Win\\Atlases\\Melinoe_Textures00.png
+File20[$e]=$HOME/Pictures/kra/424b.kra
+File21[$e]=$HOME/Desktop/meli_test/TalentScreen/TalentScreen116.png
+File22[$e]=$HOME/Pictures/kra/420e.kra
+File23[$e]=$HOME/Pictures/kra/425.kra
+File24[$e]=$HOME/Desktop/meli_test/TalentScreen/TalentScreen020.png
+File25[$e]=$HOME/Pictures/kra/427.kra
+File26[$e]=$HOME/Desktop/meli_test/SpellScreen/SpellScreen053.png
+File27[$e]=$HOME/Pictures/kra/428.kra
+File28[$e]=$HOME/Pictures/kra/426.kra
+File29[$e]=$HOME/Pictures/kra/426b.kra
+File3[$e]=$HOME/Pictures/kra/418.kra
+File30[$e]=$HOME/Pictures/kra/428b.kra
+File31[$e]=$HOME/Code/NudeMelinoe/icon.png
+File32[$e]=$HOME/Pictures/kra/429.kra
+File33[$e]=$HOME/Pictures/kra/414.kra
+File34[$e]=$HOME/Pictures/gotowe/gotowe 2025/Fantasy-Playing-Cards/photos/36.png
+File35[$e]=$HOME/Downloads/Skin template /1 belly gem.png
+File36[$e]=$HOME/Pictures/kra/430.kra
+File37[$e]=$HOME/Pictures/kra/430b.kra
+File38[$e]=$HOME/Pictures/screenshots/Screenshot_20251125_075549.png
+File39[$e]=$HOME/Pictures/kra/430c.kra
+File4[$e]=$HOME/Downloads/thumb-1920-1293291.png
+File40[$e]=$HOME/Pictures/kra/430d.kra
+File41[$e]=$HOME/Pictures/kra/432.kra
+File42[$e]=$HOME/Pictures/gotowe/gotowe 2025/Fantasy-Playing-Cards/sprites/arachne_wizard.png
+File43[$e]=$HOME/Pictures/kra/433.kra
+File44[$e]=$HOME/Pictures/kra/431.kra
+File45[$e]=$HOME/Pictures/screenshots/Screenshot_20251204_101738.png
+File46[$e]=$HOME/Pictures/screenshots/Screenshot_20251125_082158.png
+File47[$e]=$HOME/Pictures/kra/433b.kra
+File48[$e]=$HOME/Pictures/kra/434.kra
+File49[$e]=$HOME/Code/Hades-2-Free-the-Nipple-Edition/packages/FreeTheNippleEdition-Hecate/textures/atlases/bin\\Win\\Atlases\\FreeTheNippleEdition-Hecate2.png
+File5[$e]=$HOME/Pictures/kra/420.kra
+File50[$e]=$HOME/Code/Hades-2-Free-the-Nipple-Edition/packages/FreeTheNippleEdition-Hecate/textures/atlases/bin\\Win\\Atlases\\FreeTheNippleEdition-Hecate1.png
+File51[$e]=$HOME/Code/Hades-2-Free-the-Nipple-Edition/package_src/textures/atlases/bin\\Win\\Atlases\\FreeTheNippleEdition-Eris0.png
+File52[$e]=$HOME/Pictures/kra/436.kra
+File53[$e]=$HOME/Pictures/kra/435.kra
+File54[$e]=$HOME/Pictures/kra/417g.kra
+File55[$e]=$HOME/Pictures/kra/419.kra
+File56[$e]=$HOME/Pictures/kra/417f.kra
+File57[$e]=$HOME/Pictures/kra/417h.kra
+File58[$e]=$HOME/Pictures/kra/418c.kra
+File6[$e]=$HOME/Pictures/kra/420b.kra
+File7[$e]=$HOME/Pictures/kra/420c.kra
+File8[$e]=$HOME/Pictures/kra/420d.kra
+File9[$e]=$HOME/Pictures/kra/417e.kra
+Name1=418b.kra
+Name10=421.kra
+Name11=421b.kra
+Name12=421c.kra
+Name13=421d.kra
+Name14=421e.kra
+Name15=421f.kra
+Name16=Portraits_Melinoe_Casual_01.png
+Name17=422.kra
+Name18=423.kra
+Name19=424.kra
+Name2=..\\Temp\\Win\\Atlases\\Melinoe_Textures00.png
+Name20=424b.kra
+Name21=TalentScreen116.png
+Name22=420e.kra
+Name23=425.kra
+Name24=TalentScreen020.png
+Name25=427.kra
+Name26=SpellScreen053.png
+Name27=428.kra
+Name28=426.kra
+Name29=426b.kra
+Name3=418.kra
+Name30=428b.kra
+Name31=icon.png
+Name32=429.kra
+Name33=414.kra
+Name34=36.png
+Name35=1 belly gem.png
+Name36=430.kra
+Name37=430b.kra
+Name38=Screenshot_20251125_075549.png
+Name39=430c.kra
+Name4=thumb-1920-1293291.png
+Name40=430d.kra
+Name41=432.kra
+Name42=arachne_wizard.png
+Name43=433.kra
+Name44=431.kra
+Name45=Screenshot_20251204_101738.png
+Name46=Screenshot_20251125_082158.png
+Name47=433b.kra
+Name48=434.kra
+Name49=bin\\Win\\Atlases\\FreeTheNippleEdition-Hecate2.png
+Name5=420.kra
+Name50=bin\\Win\\Atlases\\FreeTheNippleEdition-Hecate1.png
+Name51=bin\\Win\\Atlases\\FreeTheNippleEdition-Eris0.png
+Name52=436.kra
+Name53=435.kra
+Name54=417g.kra
+Name55=419.kra
+Name56=417f.kra
+Name57=417h.kra
+Name58=418c.kra
+Name6=420b.kra
+Name7=420c.kra
+Name8=420d.kra
+Name9=417e.kra
+maxRecentFileItems=100
+
+[Redesign]
+usesBorderlessToolbar=false
+usesFlatTheme=true
+usesNuToolOptions=false
+usesNuToolbox=false
+
+[Rotate brush]
+Active color=45,45,45,255
+Is widget hidden=false
+Offset=45
+Outline opacity=75
+
+[Rotate canvas]
+Active color=212,141,0,255
+
+[SelectedTags]
+brushes=All
+gamutmasks=All
+gradients=All
+paintoppresets=All
+palettes=All
+patterns=All
+tasksets=All
+windowlayouts=All
+workspaces=All
+
+[ShortcutComposer]
+Blending modes values=NORMAL\tOVERLAY\tCOLOR\tMULTIPLY\tADD\tSCREEN\tDARKEN\tLIGHTEN
+Columns in pie settings=3
+Create blending layer values=NORMAL\tERASE\tOVERLAY\tCOLOR\tMULTIPLY\tADD\tSCREEN\tDARKEN\tLIGHTEN
+FPS limit=120
+Global background color=56,56,56,255
+Global pie opacity=75
+Misc tools values=ASSISTANTS\tREFERENCE\tGRADIENT\tMULTI_BRUSH\tCROP
+Override background theme color=true
+Pie Label text global scale=1.2000000000000002
+Pie animation time=0.2
+Pie deadzone global scale=1.0
+Pie global scale=0.9000000000000004
+Pie icon global scale=0.9000000000000004
+Selection tools values=FREEHAND_SELECTION\tRECTANGULAR_SELECTION\tCONTIGUOUS_SELECTION
+Short vs long press time=0.3
+Tag (blue)=Erasers
+Tag (green)=wojtryb_main
+Tag (green) values=wojtryb6 R 02a square DA impasto\twojtryb6 R 24 knife\twojtryb6 R 08 gradient Rakurri impasto\twojtryb6 R 05 watercolor\tkrita5 prototype 4\trbs) Liquidbristle\tkrita5 prototype 1
+Tag (red)=★ My Favorites
+Tracker deadzone=0
+Tracker sensitivity scale=1.0
+Transform modes values=FREE\tPERSPECTIVE\tWARP\tCAGE\tLIQUIFY\tMESH
+pie animation time=0.2
+
+[ShortcutComposer: Activate krita action (blue)]
+Abbreviate with dot=true
+Active color=110,160,235,255
+Background color=70,70,105,190
+Last tag selected=Selection
+Last value selected=TOGGLE_LAYER_ALPHA_INHERITANCE
+Max letters amount=10
+Max lines amount=3
+Pie scale=1.1
+Tag=Canvas navigation
+Tag mode=false
+Values=ROTATE_CANVAS_RIGHT\tROTATE_CANVAS_LEFT\tRESET_CANVAS_ROTATION\tINSTANT_PREVIEW_MODE\tSHOW_STATUS_BAR\tSHOW_CANVAS_ONLY\tRULERS_TRACK_POINTER\tRESET_ZOOM\tZOOM_IN\tZOOM_OUT\tTOGGLE_ZOOM_FIT_TO_PAGE\tMIRROR_VIEW_AROUND_CURSOR
+deadzone=DO_NOTHING
+
+[ShortcutComposer: Create painting layer with blending mode]
+Values=NORMAL\tERASE\tOVERLAY\tCOLOR\tMULTIPLY\tADD\tSCREEN\tDARKEN\tLIGHTEN
+
+[ShortcutComposer: Cycle brush presets]
+Default value=e) Marker Details
+Group=Erasers
+Group mode=true
+Last group selected=---Select group---
+Values=a) Eraser Circle\ta) Eraser Small\ta) Eraser Soft
+
+[ShortcutComposer: Cycle painting opacity]
+Default value=100
+Values=70\t50\t30\t100
+
+[ShortcutComposer: Cycle selection tools]
+Group=Painting
+Group mode=false
+Last group selected=Selection
+Values=FREEHAND_SELECTION\tRECTANGULAR_SELECTION\tCONTIGUOUS_SELECTION\tSIMILAR_COLOR_SELECTION
+
+[ShortcutComposer: Cycle selection tools 2]
+Values=FREEHAND_SELECTION\tRECTANGULAR_SELECTION\tCONTIGUOUS_SELECTION\tBEZIER_SELECTION\tCALLIGRAPHY
+
+[ShortcutComposer: Group order]
+Action_Canvas navigation=ROTATE_CANVAS_RIGHT\tROTATE_CANVAS_LEFT\tRESET_CANVAS_ROTATION\tINSTANT_PREVIEW_MODE\tSHOW_STATUS_BAR\tSHOW_CANVAS_ONLY\tRULERS_TRACK_POINTER\tRESET_ZOOM\tZOOM_IN\tZOOM_OUT\tTOGGLE_ZOOM_FIT_TO_PAGE\tMIRROR_VIEW_AROUND_CURSOR
+Action_Canvas toggles=TOGGLE_BRUSH_OUTLINE\tSHOW_GUIDES\tLOCK_GUIDES\tSHOW_PIXEL_GRID\tSNAP_TO_GUIDES\tSNAP_ORTHOGONAL\tSNAP_NODE\tSNAP_EXTENSION\tSNAP_INTERSECTION\tSNAP_BOUNDING_BOX\tSNAP_IMAGE_BOUNDS\tSNAP_IMAGE_CENTRE\tSNAP_PIXEL
+Action_File=NEW\tOPEN\tQUIT\tSAVE\tSAVE_AS\tUNDO\tREDO\tFULL_SCREEN_MODE\tIMPORT_ANIMATION_FRAMES\tIMPORT_VIDEO_ANIMATION\tRENDER_ANIMATION\tRENDER_ANIMATION_AGAIN\tCLOSE_ALL\tOPEN_EXISTING_DOCUMENT_AS_UNTITLED_DOCUMENT\tEXPORT\tEXPORT_ADVANCED\tDOCUMENT_INFORMATION\tSAVE_INCREMENTAL_VERSION\tSAVE_INCREMENTAL_BACKUP\tCREATE_TEMPLATE_FROM_IMAGE\tCREATE_COPY_FROM_CURRENT_IMAGE
+BlendingMode_Arithmetic=ADD\tDIVIDE\tINVERSE_SUBTRACT\tMULTIPLY\tSUBTRACT
+BlendingMode_Binary=AND\tCONVERSE\tIMPLICATION\tNAND\tNOR\tNOT_CONVERSE\tNOT_IMPLICATION\tOR\tXNOR\tXOR
+BlendingMode_Darken=BURN\tDARKEN\tDARKER_COLOR\tEASY_BURN\tFOG_DARKEN_IFS_ILLUSIONS\tGAMMA_DARK\tLINEAR_BURN\tSHADE_IFS_ILLUSIONS
+BlendingMode_HSI=COLOR_HSI\tDEC_INTENSITY\tDEC_SATURATION_HSI\tHUE_HSI\tINC_INTENSITY\tINC_SATURATION_HSI\tINTENSITY\tSATURATION_HSI
+BlendingMode_HSL=COLOR_HSL\tDEC_LIGHTNESS\tDEC_SATURATION_HSL\tHUE_HSL\tINC_LIGHTNESS\tINC_SATURATION_HSL\tLIGHTNESS\tSATURATION_HSL
+BlendingMode_HSV=COLOR_HSV\tDEC_SATURATION_HSV\tDEC_VALUE\tHUE_HSV\tINC_SATURATION_HSV\tINC_VALUE\tSATURATION_HSV\tVALUE
+BlendingMode_HSY=COLOR\tDEC_LUMINOSITY\tDEC_SATURATION\tHUE\tINC_LUMINOSITY\tINC_SATURATION\tLUMINIZE\tSATURATION
+BlendingMode_Lighten=DODGE\tEASY_DODGE\tFLAT_LIGHT\tFOG_LIGHTEN_IFS_ILLUSIONS\tGAMMA_ILLUMINATION\tGAMMA_LIGHT\tHARD_LIGHT\tLIGHTEN\tLIGHTER_COLOR\tLINEAR_DODGE\tLINEAR_LIGHT\tLUMINOSITY_SAI\tPNORM_A\tPNORM_B\tPIN_LIGHT\tSCREEN\tSOFT_LIGHT_IFS_ILLUSIONS\tSOFT_LIGHT_PEGTOP_DELPHI\tSOFT_LIGHT\tSOFT_LIGHT_SVG\tSUPER_LIGHT\tTINT_IFS_ILLUSIONS\tVIVID_LIGHT
+BlendingMode_Misc=BUMPMAP\tCOMBINE_NORMAL\tCOPY\tCOPY_BLUE\tCOPY_GREEN\tCOPY_RED\tDISSOLVE\tTANGENT_NORMALMAP
+BlendingMode_Mix=ALLANON\tALPHADARKEN\tBEHIND\tDESTINATION_ATOP\tDESTINATION_IN\tERASE\tGEOMETRIC_MEAN\tGRAIN_EXTRACT\tGRAIN_MERGE\tGREATER\tHARD_MIX\tHARD_MIX_PHOTOSHOP\tHARD_MIX_SOFTER_PHOTOSHOP\tHARD_OVERLAY\tINTERPOLATION\tINTERPOLATION_2X\tLAMBERT_lIGHTING_GAMMA_2_2\tLAMBERT_lIGHTING_GAMMA_LINEAR\tNORMAL\tOVERLAY\tPARALLEL\tPENUMBRA_A\tPENUMBRA_B\tPENUMBRA_C\tPENUMBRA_D
+BlendingMode_Modulo=DIVISIVE_MODULO\tDIVISIVE_MODULO_CONTINUOUS\tMODULO\tMODULO_CONTINUOUS\tMODULO_SHIFT\tMODULO_SHIFT_CONTINUOUS
+BlendingMode_Negative=ADDITIVE_SUBTRACTIVE\tARC_TANGENT\tDIFF\tEQUIVALENCE\tEXCLUSION\tNEGATION
+BlendingMode_Quadratic=FREEZE\tFREEZE_REFLECT\tGLOW\tGLOW_HEAT\tHEAT\tHEAT_GLOW\tHEAT_GLOW_FREEZE_REFLECT_HYBRID\tREFLECT\tREFLECT_FREEZE
+Tool_Canvas navigation=ZOOM\tPAN
+Tool_Editing=COLOR_SAMPLER\tTRANSFORM\tMOVE\tCOLORIZE_MASK\tCROP\tSMART_PATCH\tGRADIENT\tFILL\tENCLOSE_AND_FILL
+Tool_Painting=DYNAMIC_BRUSH\tLINE\tRECTANGLE\tELLIPSE\tSIMILAR_COLOR_SELECTION\tPOLYGON\tPOLYLINE\tBEZIER_PATH\tFREEHAND_PATH\tMULTI_BRUSH\tFREEHAND_BRUSH
+Tool_Selection=MAGNETIC_SELECTION\tRECTANGULAR_SELECTION\tFREEHAND_SELECTION\tPOLYGONAL_SELECTION\tCONTIGUOUS_SELECTION\tSIMILAR_COLOR_SELECTION\tBEZIER_SELECTION\tELIPTICAL_SELECTION
+Tool_Utility=MEASUREMENT\tREFERENCE\tASSISTANTS
+Tool_Vectors=SHAPE_SELECT\tTEXT\tEDIT_SHAPES\tCALLIGRAPHY
+str_Digital=a) Eraser Circle\tb) Basic-5 Size\ta) Eraser Small\ta) Eraser Soft\tb) Airbrush Soft\tb) Basic-1\tb) Basic-2 Opacity\tb) Basic-3 Flow\tb) Basic-4 Flow Opacity\tb) Basic-5 Size Opacity\tb) Basic-6 Details\td) Ink-1 Precision\td) Ink-2 Fineliner\te) Marker Chisel Smooth\te) Marker Details\te) Marker Dry\tk) Blender Basic\tk) Blender Blur\tk) Blender Pixelize\tk) Blender Smear\tl) Adjust Color\tl) Adjust Dodge\tl) Adjust Lighten\tl) Adjust Multiply\tl) Adjust Overlay Burn\tt) Shapes Fill\tt) Shapes Mecha\tt) Shapes Rounded\tt) Shapes Spikes\tt) Shapes Square\tu) Pixel Art Dithering\tu) Pixel Art Fill\tu) Pixel Art\tv) Clone Tool\tv) Distort Grow\tv) Distort Move\tv) Distort Shrink\tv) Experimental Webs\tv) Sketching-1 Chrome Thin\tv) Sketching-2 Chrome Large\tv) Sketching-3 Leaky
+str_Erasers=a) Eraser Circle\ta) Eraser Small\ta) Eraser Soft
+str_FX=k) Blender Blur\tk) Blender Pixelize\tl) Adjust Dodge\tl) Adjust Lighten\tl) Adjust Multiply\tl) Adjust Overlay Burn\tv) Experimental Webs\tx) Filter Blur\tx) Filter Sharpen\ty) Texture Starfield\tz) Stamp Bokeh\tz) Stamp Hearts\tz) Stamp Shoujo Bubbles\tz) Stamp Sparkles
+str_Ink=a) Eraser Circle\tb) Basic-5 Size\ta) Eraser Small\tb) Basic-1\td) Ink-1 Precision\td) Ink-2 Fineliner\td) Ink-3 Gpen\td) Ink-4 Pen Rough\td) Ink-7 Brush Rough\td) Ink-8 Sumi-e\tv) Sketching-1 Chrome Thin\tv) Sketching-2 Chrome Large\tv) Sketching-3 Leaky\ty) Screentone Moire\ty) Screentone Pressure\ty) Screentones Regular\ty) Texture Large Splat\ty) Texture Splat\ty) Texture Starfield\tz) Stamp Hearts\tz) Stamp Shoujo Bubbles
+str_Krita 5 starter pack=krita5 prototype 1\tkrita5 prototype 2\tkrita5 prototype 3
+str_Paint=b) Basic-5 Size Opacity\tb) Basic-6 Details\tf) Bristles-1 Details\tf) Bristles-2 Flat Rough\tf) Bristles-3 Large Smooth\tf) Bristles-4 Glaze\tf) Bristles-5 Flat\tg) Dry Bristles Eroded\tg) Dry Bristles\tg) Dry Brushing\tg) Dry Textured Creases\ti) Wet Bristles Rough\ti) Wet Bristles\ti) Wet Knife\ti) Wet Textured Soft\tj) Watercolor Fringe\tj) Watercolor Texture\tj) Waterpaint Hard Edges\tj) Waterpaint Soft Edges\tk) Blender Blur\tk) Blender Knife Edge\tk) Blender Rake\tk) Blender Textured Soft\tv) Texture Impressionism\tv) Texture Pointillism\ty) Texture Large Splat\ty) Texture Splat\ty) Texture Spray
+str_Pixel Art=u) Pixel Art Dithering\tu) Pixel Art Fill\tu) Pixel Art
+str_RGBA=m) RGBA 01 Thick-dry\tm) RGBA 02 Thickpaint\tm) RGBA 03 Rake\tm) RGBA 04 Impasto\tm) RGBA 05 Impasto-details\tm) RGBA 06 Rock\tmemileo 2
+str_Sketch=a) Eraser Circle\tb) Basic-5 Size\ta) Eraser Small\ta) Eraser Soft\tb) Basic-1\tb) Basic-2 Opacity\tb) Basic-3 Flow\tb) Basic-4 Flow Opacity\tb) Basic-5 Size Opacity\tb) Basic-6 Details\tc) Pencil-1 Hard\tc) Pencil-2\tc) Pencil-3 Large 4B\tc) Pencil-4 Soft\tc) Pencil-5 Tilted\tc) Pencil-6 Quick Shade\tf) Bristles-2 Flat Rough\tf) Bristles-5 Flat\tf) Charcoal Rock Soft\tf) Dry Roller\tg) Dry Brushing\th) Chalk Details\th) Chalk Grainy\th) Chalk Soft\th) Charcoal Pencil Medium\th) Charcoal Pencil Thin\th) Charcoal pencil large\tk) Blender Basic\tk) Blender Rake\tk) Blender Smear\tv) Clone Tool\tv) Distort Grow\tv) Distort Move\tv) Distort Shrink\tv) Sketching-1 Chrome Thin\tv) Sketching-2 Chrome Large
+str_Textures=y) Screentone Moire\ty) Screentone Pressure\ty) Screentones Regular\ty) Texture Big\ty) Texture Crackles\ty) Texture Hair\ty) Texture Large Splat\ty) Texture Noise\ty) Texture Random Particles\ty) Texture Reptile\ty) Texture Snow Pile\ty) Texture Spines\ty) Texture Splat\ty) Texture Spray\ty) Texture Starfield\ty) Texture Wood Fiber\tz) Stamp Bokeh\tz) Stamp Floor\tz) Stamp Grass Patch\tz) Stamp Grass\tz) Stamp Hearts\tz) Stamp Herbals\tz) Stamp Leaves\tz) Stamp Mountains Distant\tz) Stamp Shoujo Bubbles\tz) Stamp Sparkles\tz) Stamp Stylised Tree\tz) Stamp Vegetal\tz) Stamp Water
+str_memileo 360light=memileo 360light B 4-dab2\tmemileo 360light A 4-dab\tmemileo 4
+str_memileo Impasto Brushes=memileo 01 Brush - Flat Tip\tmemileo 03 Knife - Grainy Grooves\tmemileo 04 Knife - Grainy Edge\tmemileo 05 Knife - Detail\tmemileo 06 Knife - Flow\tmemileo 02 Knife - Wavy Ridges\tmemileo 07 Knife - Flow Blender\tmemileo 08 Knife - Flat Smooth\tmemileo 09 Knife - Flat Rough\tmemileo 10 Knife - Dabs
+str_subscribe=wojtryb6 R 02a square DA impasto\tkrita5 prototype 1\tkrita5 prototype 4\twojtryb6 R 05 watercolor Copy
+str_wojtryb=wojtryb6 R 02a square DA impasto\twojtryb6 R 04 square twoSided impasto\twojtryb6 R 05 watercolor\twojtryb6 R 06 oil DA impasto\twojtryb6 R 07 roll impasto pat\twojtryb6 R 08 gradient Rakurri impasto\twojtryb6 R 12 messy blobs Aaron\twojtryb6 R 16 painting smudge pat\twojtryb6 R 17 noise\twojtryb6 R 18 complementary\twojtryb6 R 20 horizontal DA Pat\twojtryb6 R 21 moveTool Ramon\twojtryb6 R 22 alchemy\twojtryb6 R 24 knife\tkrita5 prototype 1\tkrita5 prototype 3\tkrita5 prototype 4\tmemileo 2\tmemileo 3
+str_wojtryb-v6-tilt-rightHanded=wojtryb6 R 01 horizontal DA\twojtryb6 R 02a square DA impasto\twojtryb6 R 02b square DA impasto pat\twojtryb6 R 03 square strong impasto\twojtryb6 R 04 square twoSided impasto\twojtryb6 R 05 watercolor\twojtryb6 R 07 roll impasto pat\twojtryb6 R 08 gradient Rakurri impasto\twojtryb6 R 09 dualGradient impasto\twojtryb6 R 10a stripes impasto\twojtryb6 R 10b dots impasto\twojtryb6 R 11 hay impasto\twojtryb6 R 12 messy blobs Aaron\twojtryb6 R 13 messy square Aaron\twojtryb6 R 14 grainy dry smudge\twojtryb6 R 15 spread dry smudge\twojtryb6 R 16 painting smudge pat\twojtryb6 R 17 noise\twojtryb6 R 18 complementary\twojtryb6 R 19 noise painting\twojtryb6 R 20 horizontal DA Pat\twojtryb6 R 21 moveTool Ramon\twojtryb6 R 22 alchemy\twojtryb6 R 23 blur\twojtryb6 R 24 knife
+str_wojtryb_main=wojtryb6 R 02a square DA impasto\twojtryb6 R 05 watercolor\twojtryb6 R 08 gradient Rakurri impasto\twojtryb6 R 24 knife\tkrita5 prototype 1\tkrita5 prototype 4
+str_wojtryb_secondary=
+str_★ My Favorites=a) Eraser Small\ta) Eraser Soft\tb) Airbrush Soft\tb) Basic-5 Size Opacity\tc) Pencil-2\te) Marker Dry\tf) Bristles-2 Flat Rough\tg) Dry Brushing\ti) Wet Paint Details\ti) Wet Paint\tk) Blender Basic\tv) Distort Move
+
+[ShortcutComposer: Pick brush presets (blue)]
+Active color=110,160,235,255
+Background color=70,70,105,191
+Icon scale=1.0
+Is tag mode=true
+Last tag selected=All
+Last value selected=krita5 prototype 4
+Override default theme=true
+Pie opacity=75
+Pie scale=1.0
+Tag=wojtryb_main
+Tag mode=false
+Values=krita5 prototype 4\twojtryb6 R 24 knife\tkrita5 prototype 1\twojtryb6 R 08 gradient Rakurri impasto\twojtryb6 R 05 watercolor\twojtryb6 R 02a square DA impasto
+deadzone=PICK_PREVIOUS
+
+[ShortcutComposer: Pick brush presets (green)]
+Is tag mode=false
+Last tag selected=wojtryb_main
+Pie scale=0.85
+Tag=wojtryb_main
+Values=wojtryb6 R 02a square DA impasto\twojtryb6 R 24 knife\trbs) Liquidbristle\tkrita5 prototype 4\twojtryb6 R 05 watercolor\twojtryb6 R 08 gradient Rakurri impasto\tkrita5 prototype 1
+
+[ShortcutComposer: Pick brush presets (red)]
+Icon scale=1.0
+Last tag selected=---Select group---
+Last value selected=wojtryb6 R 02a square DA impasto
+Pie scale=1.4000000000000004
+Tag=wojtryb-v6-tilt-rightHanded
+Tag mode=true
+Values=k) Blender Blur\tm) RGBA 02 Thickpaint\twojtryb6 R 04 square twoSided impasto\twojtryb6 R 06 oil DA impasto\twojtryb6 R 07 roll impasto pat\twojtryb6 R 12 messy blobs Aaron\twojtryb6 R 16 painting smudge pat\twojtryb6 R 17 noise\twojtryb6 R 18 complementary\twojtryb6 R 22 alchemy\twojtryb6 R 20 horizontal DA Pat\twojtryb6 R 21 moveTool Ramon\tkrita5 prototype 3
+deadzone=PICK_PREVIOUS
+
+[ShortcutComposer: Pick brush presets (yellow)]
+Last tag selected=wojtryb-v6-tilt-rightHanded
+
+[ShortcutComposer: Pick foreground color]
+Active color=144,144,144,255
+Last value selected=50,27,53,255
+Override default theme=true
+Save local=true
+Values=
+Values default=
+deadzone=DO_NOTHING
+
+[ShortcutComposer: Pick local brush presets]
+Active color=234,172,0,255
+Background color=35,35,35,255
+Icon scale=1.0
+Last tag selected=wojtryb-v6-tilt-rightHanded
+Last value selected=wojtryb6 R 24 knife
+Override default theme=true
+Pie scale=1.0
+Save local=true
+Tag=demo
+Tag default=
+Tag mode=false
+Tag mode default=false
+Values=wojtryb6 R 01 horizontal DA\twojtryb6 R 02a square DA impasto\twojtryb6 R 04 square twoSided impasto\twojtryb6 R 24 knife\tb) Airbrush Soft\twojtryb6 R 08 gradient Rakurri impasto\twojtryb6 R 21 moveTool Ramon\twojtryb6 R 22 alchemy
+Values default=wojtryb6 R 24 knife\tb) Airbrush Soft\twojtryb6 R 08 gradient Rakurri impasto\twojtryb6 R 21 moveTool Ramon\twojtryb6 R 22 alchemy
+deadzone=PICK_PREVIOUS
+
+[ShortcutComposer: Pick misc tools]
+Last tag selected=Editing
+Last value selected=REFERENCE
+
+[ShortcutComposer: Pick painting blending modes]
+Last tag selected=All
+Last value selected=NORMAL
+Max letters amount=3
+Max lines amount=1
+Tag=
+Tag mode=false
+Values=NORMAL\tOVERLAY\tCOLOR\tMULTIPLY\tADD\tSCREEN\tDARKEN\tBEHIND
+
+[ShortcutComposer: Pick transform tool modes]
+Last tag selected=All
+Last value selected=FREE
+Pie scale=0.85
+Values=FREE\tPERSPECTIVE\tMESH
+
+[SubwindowOrganizer]
+organizerToggled=true
+
+[SvgSymbolCollection]
+currentCollection=0
+
+[SvgTextTool]
+BoldAttribute=true
+BoldComment=false
+BoldElement=true
+BoldKeyword=true
+BoldValue=true
+EditorMode=2
+Geometry=AdnQywADAAAAAADYAAAB+gAABMIAAASXAAAA2AAAAfoAAATCAAAElwAAAAAAAAAACgAAAADYAAAB+gAABMIAAASX
+ItalicAttribute=true
+ItalicComment=false
+ItalicElement=false
+ItalicKeyWord=false
+ItalicValue=false
+colorAttribute=0,255,0
+colorComment=192,192,192
+colorEditorBackground=35,35,35
+colorEditorForeground=205,205,205
+colorElement=255,0,255
+colorKeyword=0,255,255
+colorValue=255,0,0
+selectedWritingSystems=
+windowState=AAAA/wAAAAD9AAAAAAAAA+sAAAIdAAAABAAAAAQAAAAIAAAACPwAAAADAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAAgAAAAEAAAAYAGYAbwBuAHQAUwBlAHQAdABpAG4AZwBzAQAAAAD/////AAAAAAAAAAAAAAACAAAAAQAAABQAZgBvAHIAbQBhAHQAdABpAG4AZwEAAAAA/////wAAAAAAAAAA
+
+[TemplateChooserDialog]
+AlwaysUseTemplate=/mnt/data/kritaResources/templates/My templates/.source/Papertemplate.kra
+DetailsPaneSplitterSizes=299,239
+FullTemplateName[$e]=/mnt/data/kritaResources/templates/My templates/.source/Papertemplate.kra
+LastReturnType=Custom Document
+
+[WideGamutColorSelector]
+colorHistory.maxCount=30
+colorHistory.orientation=1
+colorHistory.patchSize=16,16
+colorHistory.rows=1
+colorHistory.scrolling=1
+colorHistoryEnabled=true
+colorHistoryShowClearButton=false
+colorSelectorConfiguration=1|0|6|0
+colorSpaceSource=0
+commonColors.maxCount=20
+commonColors.orientation=1
+commonColors.patchSize=16,16
+commonColors.rows=1
+commonColors.scrolling=1
+commonColorsAutoUpdate=false
+commonColorsEnabled=true
+customColorSpaceDepthID=U8
+customColorSpaceModel=RGBA
+customColorSpaceProfile=sRGB-elle-V2-srgbtrc.icc
+favoriteSelectorConfigurations=3|0|6|0;1|0|6|0;2|4|10|1
+minimalShadeSelectorLines=0.3;0;0;0;0;0;0;0;-1|0;-0.5;0;0;0;0;0;0;-1|0;0;0.5;0;0;0;0;0;-1|0;-0.2;0.2;0;0;0;0;0;-1
+popupColorPatchOrientation=1
+popupColorPatchSize=32,32
+popupPatches.maxCount=30
+popupPatches.rows=1
+popupPatches.scrolling=1
+popupSize=360
+proofToPaintingColors=false
+quickSettingsMenuEnabled=true
+renderMode=2
+rgbColorModel=2
+shadeSelectorLineHeight=10
+shadeSelectorUpdateOnExternalChanges=true
+shadeSelectorUpdateOnInteractionEnd=false
+shadeSelectorUpdateOnRightClick=true
+
+[advancedColorSelector]
+colorSelectorConfiguration=1|0|6|0
+commonColorsShow=false
+customSelectorBackgroundColor=160,160,164
+gamma=2.2
+lastUsedColorsPerDocument=false
+lastUsedColorsShow=false
+lumaG=0.7152
+lumaR=0.2126
+minimalShadeSelectorLineConfig=0|0.2|0|0|0|0|0;1|0|1|1|0|0|0;2|0|-1|1|0|0|0
+shadeSelectorType=Hidden
+showColorSelector=true
+useCustomColorForBackground=false
+zoomSize=460
+
+[autocontrast_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="1"/>\n
+
+[blender_layer]
+assistantsAxis=True
+assistantsThreePoint=True
+backgroundDraw=False
+blenderPath=/home/wojtryb/Downloads/blender-3.4.1-linux-x64/blender
+colorManageBlender=True
+convertBGR=True
+host=127.0.0.1
+layerName=Blender Layer
+library=Body-chan\\\\library/bodychan-bodykun.blend\\\\Collection/BodyChan;Action/Standing;Action/Jumping////Body-kun\\\\library/bodychan-bodykun.blend\\\\Collection/BodyKun;Action/Standing////Monkey\\\\library/default.blend\\\\Object/Suzanne////Cube\\\\library/default.blend\\\\Object/Cube
+lockFrames=10
+navigateAlt=True
+overrideSRGB=True
+port=65432
+relPath=True
+renderPath=/tmp/BlenderLayer
+sharedMem=True
+
+[colorbalance_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="0">\n <param name="cyan_red_highlights" type="internal">12</param>\n <param name="cyan_red_midtones" type="internal">-4</param>\n <param name="cyan_red_shadows" type="internal">-1</param>\n <param name="magenta_green_highlights" type="internal">1</param>\n <param name="magenta_green_midtones" type="internal">-1</param>\n <param name="magenta_green_shadows" type="internal">0</param>\n <param name="preserve_luminosity" type="internal">true</param>\n <param name="yellow_blue_highlights" type="internal">-1</param>\n <param name="yellow_blue_midtones" type="internal">0</param>\n <param name="yellow_blue_shadows" type="internal">0</param>\n</params>\n
+
+[colortoalpha_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="targetcolor" type="internal">#492308</param>\n <param name="threshold" type="internal">100</param>\n</params>\n
+
+[crashprevention]
+CreatingCanvas=false
+
+[desaturate_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="0">\n <param type="internal" name="type">0</param>\n</params>\n
+
+[filterdialog]
+forceLodMode=true
+showPreview=true
+
+[group name]
+field_int=234
+field_str=qwe
+
+[group name 2]
+field_int=345
+
+[hsvadjustment_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="0">\n <param type="internal" name="colorize">false</param>\n <param type="internal" name="compatibilityMode">false</param>\n <param type="internal" name="h">0</param>\n <param type="internal" name="s">0</param>\n <param type="internal" name="type">1</param>\n <param type="internal" name="v">-32</param>\n</params>\n
+
+[invert_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="0"/>\n
+
+[krita]
+ColorSpaceExtensionsPlugins=\\0
+ColorSpaceExtensionsPluginsDisabled=
+ColorSpacePlugins=\\0
+ColorSpacePluginsDisabled=
+DockerPlugins=,,,,,,,,,,,,,,,,,,,,,,,,,,,
+DockerPluginsDisabled=
+FlakePlugins=\\0
+FlakePluginsDisabled=
+ShapePlugins=\\0
+ShapePluginsDisabled=
+ToolPlugins=,,,,,,,,,,,,,
+ToolPluginsDisabled=
+
+[levels_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="2">\n <param name="mode">lightness</param>\n <param name="histogram_mode">linear</param>\n <param name="lightness">0.264270613107822;1;1.29139455706104;0;1</param>\n <param name="number_of_channels">8</param>\n <param name="channel_0">0;1;1;0;1</param>\n <param name="channel_1">0;1;1;0;1</param>\n <param name="channel_2">0;1;1;0;1</param>\n <param name="channel_3">0;1;1;0;1</param>\n <param name="channel_4">0;1;1;0;1</param>\n <param name="channel_5">0;1;1;0;1</param>\n <param name="channel_6">0;1;1;0;1</param>\n <param name="channel_7">0;1;1;0;1</param>\n <param type="internal" name="blackvalue">67</param>\n <param type="internal" name="whitevalue">255</param>\n <param type="internal" name="gammavalue">1.29139455706104</param>\n <param type="internal" name="outblackvalue">0</param>\n <param type="internal" name="outwhitevalue">255</param>\n</params>\n
+
+[mean removal_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="1"/>\n
+
+[perchannel_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="nTransfers">8</param>\n <param name="curve0">0,0;0.47412,0.406824;1,1;</param>\n <param name="curve1">0,0;1,1;</param>\n <param name="curve2">0,0;1,1;</param>\n <param name="curve3">0,0;1,1;</param>\n <param name="curve4">0,0;1,1;</param>\n <param name="curve5">0,0;1,1;</param>\n <param name="curve6">0,0;1,1;</param>\n <param name="curve7">0,0;1,1;</param>\n</params>\n
+
+[python]
+enable_Backup Layer=true
+enable_PluginDevTools=false
+enable_backup_layer=true
+enable_blender_layer=false
+enable_krita-redesign=true
+enable_shortcut_composer=true
+enable_subwindowOrganizer=true
+enable_subwindow_organizer=false
+enable_wojtryb_krita_helpers=true
+enable_wojtryb_krita_scripts=true
+
+[temp]
+temp=Painting
+
+[tenscripts]
+scripts=/home/wojtryb/Code/Wojtryb-Krita-Helpers/wojtryb_krita_scripts/scripts/project_to_layers_below.py,/home/wojtryb/Code/Wojtryb-Krita-Helpers/wojtryb_krita_scripts/scripts/backup_layer.py
+
+[theme]
+Theme=Krita-Wojtryb-Darker-Redesign
+
+[threshold_filter_bookmarks]
+Last Used=<!DOCTYPE params>\n<params version="1">\n <param name="threshold" type="internal">108</param>\n</params>\n
+
+[tool_color_sampler]
+ColorSamplerDefaultActivation=<!DOCTYPE params>\n<params>\n <param type="internal" name="addPalette">false</param>\n <param type="internal" name="blend">100</param>\n <param type="internal" name="normaliseValues">false</param>\n <param type="internal" name="radius">1</param>\n <param type="internal" name="sampleMerged">true</param>\n <param type="internal" name="toForegroundColor">true</param>\n <param type="internal" name="updateColor">true</param>\n</params>\n

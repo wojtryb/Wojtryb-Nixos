@@ -6,6 +6,7 @@
     ./modules/gnome.nix
     ./modules/git.nix
     ./modules/dolphin
+    ./modules/krita
   ];
 
   home.username = "wojtryb";

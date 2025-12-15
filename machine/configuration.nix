@@ -186,10 +186,25 @@
 
   programs.firefox.enable = true;
 
-  # Reprogram some keyboard keys
-  services.kanata = {
+  # Remap some keyboard keys
+  # keyd is used instead of kanata which caused cursor glitches for krita color selector popup
+  services.keyd = {
     enable = true;
-    keyboards."generic".config = builtins.readFile ./kanata.kbd;
+    keyboards = {
+      default = {
+        settings = {
+          main = {
+            # keyd list-keys
+            "delete" = "print";
+            "home" = "delete";
+            "pageup" =  "playpause";
+            "pagedown" =  "home";
+            "rightcontrol" =  "rightmeta";
+            "mute" =  "power";
+          };
+        };
+      };
+    };
   };
 
   # Do not change even if the nixos gets updated.

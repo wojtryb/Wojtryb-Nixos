@@ -3,6 +3,7 @@
 {
   imports = [
       ./hardware-configuration.nix
+      ./gnome.nix
   ];
 
   boot.loader.systemd-boot.enable = true;
@@ -25,74 +26,14 @@
     LC_TIME = "pl_PL.UTF-8";
   };
 
-  services.xserver.enable = true;
-
-  # Enable gnome
-  services.displayManager.gdm.enable = true;
-  services.desktopManager.gnome.enable = true;
-  # services.desktopManager.gnome.extraGSettingsOverrides = ''
-  #   [org.gnome.mutter]
-  #   experimental-features=['scale-monitor-framebuffer', 'xwayland-native-scaling']
-  # '';
-
-  services.gnome.core-apps.enable = true; # most of those are excluded later
-  services.gnome.core-developer-tools.enable = false;
-  services.gnome.games.enable = false;
-  environment.gnome.excludePackages = with pkgs; [
-
-    # pkgs.decibels # audio player
-    # pkgs.gnome-font-viewer
-    # pkgs.loupe # image viewer
-    # pkgs.papers # pdf reader
-    # pkgs.showtime # video player (replace with vlc or similar one)
-
-    # pkgs.adwaita-icon-theme
-    # pkgs.gnome-color-manager
-    # pkgs.glib # for gsettings program
-    # pkgs.gnome-menus
-    # pkgs.gtk3.out # for gtk-launch program
-    # pkgs.xdg-user-dirs # Update user dirs as described in https://freedesktop.org/wiki/Software/xdg-user-dirs/
-    # pkgs.xdg-user-dirs-gtk # Used to create the default bookmarks
-    # pkgs.gnome-backgrounds # wallpapers
-
-    pkgs.gnome-disk-utility
-    pkgs.geary # mail
-    pkgs.seahorse # password manager
-    # nixos-background-info
-    pkgs.gnome-bluetooth
-    pkgs.gnome-control-center # settings - keep for now
-    pkgs.gnome-tour # GNOME Shell detects the .desktop file on first log-in.
-    pkgs.gnome-user-docs
-    pkgs.baobab # disk usage
-    pkgs.epiphany # web browser
-    pkgs.gnome-text-editor
-    pkgs.gnome-calculator
-    pkgs.gnome-calendar
-    pkgs.gnome-characters
-    pkgs.gnome-clocks
-    pkgs.gnome-console
-    pkgs.gnome-contacts
-    pkgs.gnome-logs
-    pkgs.gnome-maps
-    pkgs.gnome-music
-    pkgs.gnome-system-monitor
-    pkgs.gnome-weather
-    # pkgs.nautilus
-    pkgs.gnome-connections # remote desktop
-    pkgs.simple-scan
-    pkgs.snapshot # camera
-    pkgs.yelp # gnome help
-  ];
-
-  services.xserver.excludePackages = [
-    pkgs.xterm
-  ];
-
   # Fix missing libs for gnome utilities like choosing color or picking a file
   environment.sessionVariables.XDG_DATA_DIRS = [
     "${pkgs.gsettings-desktop-schemas}/share/gsettings-schemas/${pkgs.gsettings-desktop-schemas.name}"
     "${pkgs.gtk3}/share/gsettings-schemas/${pkgs.gtk3.name}"
   ];
+
+  services.xserver.enable = true;
+  services.xserver.excludePackages = [ pkgs.xterm ];
 
   services.xserver.xkb = {
     layout = "pl";
@@ -120,9 +61,7 @@
     isNormalUser = true;
     description = "wojtryb";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-      # kdePackages.kate
-    ];
+    packages = with pkgs; [ ];
   };
 
   # Allow unfree packages
@@ -131,39 +70,36 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+
+    # File manager dolphin
     kdePackages.dolphin
     kdePackages.kio # needed since 25.11
-    kdePackages.kio-fuse #to mount remote filesystems via FUSE
-    kdePackages.kio-extras #extra protocols support (sftp, fish and more)
+    kdePackages.kio-fuse # to mount remote filesystems via FUSE
+    kdePackages.kio-extras # extra protocols support (sftp, fish and more)
     kdePackages.qtsvg
-    # libsForQt5.qt5ct
-    # libsForQt5.qtstyleplugin-kvantum
-    # kdePackages.qt6ct
-    # adwaita-qt
-    adwaita-qt6
-    # pkgs.sweet
-    # sweet-nova
-      
-    kdePackages.kate
-    kdePackages.konsole
-    
-    pkgs.krita
-    pkgs.vscode
-    pkgs.blender
-    pkgs.spotify
-    
-    appimage-run 
-      
-    gnomeExtensions.blur-my-shell
-    gnomeExtensions.just-perfection
-    
-    pkgs.candy-icons
-    
-    gnome-tweaks
 
-    pkgs.rar
-    pkgs.unzip
-    pkgs.zip
+    # Core apps
+    kdePackages.kate # Simple code editor
+    kdePackages.konsole # Terminal
+    krita # 2D Painting
+    vscode # Advanced code editor
+    blender # 3D modeling
+    spotify # Music
+    firefox # Web
+
+    # Programming packages
+    python312
+    python312Packages.pip
+
+    # Utilities
+    rar
+    unzip
+    zip
+    appimage-run # Running appimage files
+
+    # Theming
+    adwaita-qt6 # Theme for qt apps that looks like gnome theme 
+    candy-icons # Icons for app-selection and dolphin 
   ];
 
   # Enable nvidia driver
@@ -183,8 +119,6 @@
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
     dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
   };
-
-  programs.firefox.enable = true;
 
   # Remap some keyboard keys
   # keyd is used instead of kanata which caused cursor glitches for krita color selector popup

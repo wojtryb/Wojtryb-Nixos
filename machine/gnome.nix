@@ -67,7 +67,6 @@
 
     gnomeExtensions.blur-my-shell
     gnomeExtensions.just-perfection
-    # gnomeExtensions.hide-top-bar
     gnomeExtensions.dash-to-dock
   ];
 

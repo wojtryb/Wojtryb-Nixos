@@ -26,6 +26,10 @@
   
   dconf.enable = true;
   dconf.settings = {
+
+
+
+
     # Power settings
     "org/gnome/settings-daemon/plugins/power" = {
       power-button-action = "interactive"; # Ask for confirmation to shut down (power button is mapped on keyboard)
@@ -35,19 +39,31 @@
 
     # Mutlitasking
     "org/gnome/desktop/interface" = {
+      text-scaling-factor = 1.7;
       enable-hot-corners = false; # Disable overview on hover in top-left corner
       color-scheme = "prefer-dark"; # Use dark gnome theme
+      accent-color = "orange";
     };
     "org/gnome/mutter" = {
       edge-tiling = true; # Drag windows to top, left and right to snap them
       dynamic-workspaces = false; # Use fixed number of workspaces
       workspaces-only-on-primary = true; # Workspaces affect only main monitor
+      attach-modal-dialogs = false;
+      center-new-windows = true;
     };
-    "org/gnome/desktop/wm/preferences" = { num-workspaces = 6; }; # Amount of workspaces
+    "org/gnome/desktop/wm/preferences" = {
+      action-double-click-titlebar = "none";
+      action-middle-click-titlebar = "none";
+      action-right-click-titlebar = "menu";
+      button-layout = "icon:close";
+      resize-with-right-button = false;
+      num-workspaces = 6; # Amount of workspaces
+      mouse-button-modifier = "<Super>";
+    
+    };
     "org/gnome/shell/app-switcher" = { current-workspace-only = false; }; # Allow cycling between apps on different workspaces
 
     # Appearance
-    "org/gnome/desktop/interface" = { accent-color = "orange"; };
     "org/gnome/desktop/background" = {
       picture-uri = "file:///run/current-system/sw/share/backgrounds/gnome/blobs-l.svg";
       picture-uri-dark = "file:///run/current-system/sw/share/backgrounds/gnome/blobs-d.svg";
@@ -97,7 +113,6 @@
       disable-user-extensions = false;
       enabled-extensions = [
         "just-perfection-desktop@just-perfection"
-        # "hidetopbar@mathieu.bidon.ca"
         "dash-to-dock@micxgx.gmail.com"
         "blur-my-shell@aunetx"
       ];
@@ -148,7 +163,8 @@
       disable-overview-on-startup = false;
       apply-custom-theme = false;
       running-indicator-style = "DOTS";
-      custom-theme-running-dots-color = "rgb(61,56,70)";
+      custom-theme-customize-running-dots = true;
+      custom-theme-running-dots-color = "rgb(0,0,0)";
       custom-theme-running-dots-border-color = "rgb(255,255,255)";
       custom-theme-running-dots-border-width = 6;
       custom-background-color = false;
@@ -156,23 +172,12 @@
       background-opacity = 0.8;
     };
 
-    # Extension: Hide Top Bar
-    # "org/gnome/shell/extensions/hidetopbar" = {
-    #   mouse-sensitive = false;
-    #   mouse-sensitive-fullscreen-window = false;
-    #   show-in-overview = true;
-    #   hot-corner = false;
-    #   mouse-triggers-overview = false;
-    #   keep-round-corners = false;
-    #   enable-intellihide = true;
-    #   enable-active-window = false;
-    # };
-
     # Extension: Just Perfection
     "org/gnome/shell/extensions/just-perfection" = {
 
       # Visibility panel
       panel = false;
+      panel-in-overview = true;
       activities-button = true;
       clock-menu = true;
       accessibility-menu = false;

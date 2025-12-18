@@ -131,10 +131,11 @@
             # keyd list-keys
             "delete" = "print";
             "home" = "delete";
-            "pageup" =  "playpause";
+            "pageup" =  "noop";
             "pagedown" =  "home";
-            "rightcontrol" =  "rightmeta";
+            "rightcontrol" =  "rightmouse";
             "mute" =  "power";
+            "capslock" = "noop";
           };
         };
       };

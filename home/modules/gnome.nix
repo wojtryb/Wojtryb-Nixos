@@ -69,15 +69,14 @@
     };
     "org/gnome/desktop/peripherals/touchpad" = { send-events = "disabled"; };
 
+    # Keyboard
     "org/gnome/settings-daemon/plugins/media-keys" = {
-      next = [ "<Shift>AudioPlay" ];
-      previous = [ "<Shift><Control>AudioPlay" ];
+      previous = [ "<Super>F10" ];
+      play = [ "<Super>F11" ];
+      next = [ "<Super>F12" ];
       reboot = [ "<Control>PowerOff" ];
     };
-    "org/gnome/desktop/wm/keybindings" = {
-      close = [ "<Control>grave" ];
-
-    };
+    "org/gnome/desktop/wm/keybindings" = { close = [ "<Control>grave" ]; };
     "org/gnome/mutter" = { overlay-key = "Super"; };
   };
 }

@@ -7,6 +7,7 @@
     ./modules/git.nix
     ./modules/dolphin
     ./modules/krita
+    ./modules/vscode
   ];
 
   home.username = "wojtryb";

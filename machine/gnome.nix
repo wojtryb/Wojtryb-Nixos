@@ -70,4 +70,13 @@
     gnomeExtensions.dash-to-dock
   ];
 
+  # Enable KDE Connect. Do not use GSConnect (dedicated Gnome implementation) as its not working with dolphin
+  programs.kdeconnect = {
+    enable = true;
+  };
+  networking.firewall = rec {
+    allowedTCPPortRanges = [ { from = 1714; to = 1764; } ];
+    allowedUDPPortRanges = allowedTCPPortRanges;
+  };
+
 }

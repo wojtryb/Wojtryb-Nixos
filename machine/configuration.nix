@@ -76,14 +76,16 @@
     kdePackages.kio # needed since 25.11
     kdePackages.kio-fuse # to mount remote filesystems via FUSE
     kdePackages.kio-extras # extra protocols support (sftp, fish and more)
+    kdePackages.karchive # to open .zip files directly in dolphin
     kdePackages.qtsvg
 
     # Core apps
     kdePackages.kate # Simple code editor
     kdePackages.konsole # Terminal
     krita # 2D Painting
-    vscode # Advanced code editor
+    inkscape # 2D Vector editing
     blender # 3D modeling
+    vscode # Advanced code editor
     spotify # Music
     firefox # Web
 
@@ -93,8 +95,6 @@
 
     # Utilities
     rar
-    unzip
-    zip
     appimage-run # Running appimage files
 
     # Theming

@@ -7,11 +7,11 @@ let current_path = "${builtins.toString ./.}"; in
   # Local desktop file overrides global one installed with pkgs.krita
   home.file.".local/share/applications/org.kde.krita.desktop".source = ./org.kde.krita.desktop;
 
-  # TODO: find where is the topbar config file and include it here 
   # Configuration files are symlinked to this repository, making them editable from krita
   home.file.".config/kritarc".source = config.lib.file.mkOutOfStoreSymlink "${current_path}/kritarc";
   home.file.".config/kritadisplayrc".source = config.lib.file.mkOutOfStoreSymlink "${current_path}/kritadisplayrc";
   home.file.".config/kritashortcutsrc".source = config.lib.file.mkOutOfStoreSymlink "${current_path}/kritashortcutsrc";
+  home.file.".local/share/krita/krita5.xmlgui".source = config.lib.file.mkOutOfStoreSymlink "${current_path}/krita5.xmlgui";
   home.file.".local/share/krita/input/kritadefault.profile".source = config.lib.file.mkOutOfStoreSymlink "${current_path}/resources/input/kritadefault.profile";
 
   # Copy krita resources

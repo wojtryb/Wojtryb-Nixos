@@ -1,5 +1,5 @@
 from krita import *
-from . import variables
+from .variables import ColorScheme
     
 class Redesign(Extension):
 
@@ -7,39 +7,26 @@ class Redesign(Extension):
         super().__init__(parent)
 
     def setup(self):
-        variables.setBackground(qApp.palette().color(QPalette.Window).name())
-        variables.setAlternate(qApp.palette().color(QPalette.AlternateBase).name())
-        variables.setTextColor("#b4b4b4")
-        variables.buildFlatTheme()
 
     def createActions(self, window):
+        colors = ColorScheme(
+            background=qApp.palette().color(QPalette.Window).name(),
+            alternate=qApp.palette().color(QPalette.AlternateBase).name(),
+            tab_text_color="#b4b4b4",
+            active_text_color="#eeeeee",
+        )
+
+        # Main Krita window
         qwindow = window.qwindow()
+        qwindow.setStyleSheet(colors.qwindow_style)
 
-        # Dockers and toolbar
-        full_style_sheet = ""
-        full_style_sheet += f"\n {variables.flat_dock_style} \n"
-        full_style_sheet += f"\n {variables.flat_tools_style} \n"
-        full_style_sheet += f"\n {variables.flat_main_window_style} \n"
-        full_style_sheet += f"\n {variables.flat_menu_bar_style} \n"
-        full_style_sheet += f"\n {variables.flat_combo_box_style} \n"
-        full_style_sheet += f"\n {variables.flat_spin_box_style} \n"
-        full_style_sheet += f"\n {variables.flat_status_bar_style} \n"
-        full_style_sheet += f"\n {variables.flat_tab_base_style} \n"
-        full_style_sheet += f"\n {variables.flat_tree_view_style} \n"
-        full_style_sheet += f"\n {variables.flat_toolbar_style} \n"
-        qwindow.setStyleSheet(full_style_sheet)
-
-        # Overview
+        # Overview docker
         overview = qwindow.findChild(QWidget, 'OverviewDocker')
-        overview_style = ""
-        overview_style += f"\n {variables.flat_overview_docker_style} \n"
-        overview.setStyleSheet(overview_style)
+        overview.setStyleSheet(colors.flat_overview_docker_style)
 
-        # For document tab
-        canvas_style_sheet = ""
-        canvas_style_sheet += f"\n {variables.flat_tab_big_style} \n"
+        # Document tab
         canvas = qwindow.centralWidget()
-        canvas.setStyleSheet(canvas_style_sheet)
+        canvas.setStyleSheet(colors.flat_tab_big_style)
 
         # Update canvas size
         canvas.resize(canvas.sizeHint())

@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class ColorScheme:
     background: str = "black"
@@ -23,7 +24,8 @@ class ColorScheme:
     
     @property
     def flat_tab_big_style(self) -> str:
-        return f"""QTabBar::tab {{
+        return f"""
+        QTabBar::tab {{
             border-top-right-radius: 4px;
             border-top-left-radius: 4px;
             padding: 8px;
@@ -32,79 +34,6 @@ class ColorScheme:
     @property
     def qwindow_style(self) -> str:
         return f""" 
-            /* ====== flat_tab_base_style ====== */
-
-            QTabBar {{
-                border: none;
-                qproperty-drawBase: 0;
-                qproperty-expanding: 1;
-            }}
-        
-            QTabBar::tab:!selected {{
-                background-color: {self.alternate};
-                color: {self.tab_text_color};
-            }}
-
-                QTabBar::tab:selected {{
-                background-color: {self.background};
-                color: {self.active_text_color};
-            }}
-
-            QTabBar::tab:only-one {{
-                margin: 0px;
-            }}
-
-            QTabBar::tab:hover {{
-                color: white;
-            }}
-
-            flat_main_window_style
-
-            QHeaderView {{
-                background: {self.alternate};
-            }}
-            
-            QLineEdit {{
-                background: {self.alternate};
-            }}
-
-            QStatusBar > QPushButton {{
-                border: none;
-            }}
-            
-            QStatusBar > QPushButton:hover {{
-                background: #2e2e2e;
-            }}
-
-
-            /* ====== flat_tools_style ====== */
-
-            QToolButton, QPushButton {{
-                background-color: {self.background};
-                border-radius: 4px;
-                border: 2px solid {self.alternate};
-            }}
-
-            QToolButton:checked, QPushButton:checked {{
-                background-color: {self.alternate};
-                border-radius: 4px;
-            }}
-
-            QToolButton:hover, QPushButton:hover {{
-                border: none;
-                background-color: {self.alternate};
-            }}
-
-            QToolButton[popupMode="1"] {{
-                padding-right: 13px;
-            }}
-
-            QToolButton::menu-button {{
-                border: none;
-                border-radius: 4px;
-            }}
-
-
             /* ====== flat_dock_style ====== */
 
             QAbstractScrollArea {{
@@ -144,28 +73,59 @@ class ColorScheme:
                 margin-top: 2px;
             }}
 
+            
+            /* ====== flat_tools_style ====== */
 
-            /* ====== flat_toolbar_style ====== */
-
-            QToolBar {{
+            QToolButton, QPushButton {{
                 background-color: {self.background};
+                border-radius: 4px;
+                border: 2px solid {self.alternate};
+            }}
+
+            QToolButton:checked, QPushButton:checked {{
+                background-color: {self.alternate};
+                border-radius: 4px;
+            }}
+
+            QToolButton:hover, QPushButton:hover {{
+                border: none;
+                background-color: {self.alternate};
+            }}
+
+            QToolButton[popupMode="1"] {{
+                padding-right: 13px;
+            }}
+
+            QToolButton::menu-button {{
+                border: none;
+                border-radius: 4px;
+            }}
+
+            
+            /* ====== flat_main_window_style ====== */
+
+            QHeaderView {{
+                background: {self.alternate};
+            }}
+            
+            QLineEdit {{
+                background: {self.alternate};
+            }}
+
+            QStatusBar > QPushButton {{
                 border: none;
             }}
             
-            QToolBar > * {{
-                border: none;
+            QStatusBar > QPushButton:hover {{
+                background: #2e2e2e;
             }}
+
             
-            QToolBar > * > QToolButton, QPushButton {{
-                border: none;
-            }}
-
-
             /* ====== flat_menu_bar_style ====== */
 
             QMenuBar {{background-color: {self.background};}}
 
-
+            
             /* ====== flat_combo_box_style ====== */
 
             QComboBox {{ 
@@ -233,11 +193,52 @@ class ColorScheme:
             }}
 
 
+            /* ====== flat_tab_base_style ====== */
+
+            QTabBar {{
+                border: none;
+                qproperty-drawBase: 0;
+                qproperty-expanding: 1;
+            }}
+        
+            QTabBar::tab:!selected {{
+                background-color: {self.alternate};
+                color: {self.tab_text_color};
+            }}
+
+                QTabBar::tab:selected {{
+                background-color: {self.background};
+                color: {self.active_text_color};
+            }}
+
+            QTabBar::tab:only-one {{
+                margin: 0px;
+            }}
+
+            QTabBar::tab:hover {{
+                color: white;
+            }}
+
             /* ====== flat_tree_view_style ====== */
 
             QTreeView {{
                 background-color: {self.background}; 
                 border: none;
                 padding: 5px;
+            }}
+
+            /* ====== flat_toolbar_style ====== */
+
+            QToolBar {{
+                background-color: {self.background};
+                border: none;
+            }}
+            
+            QToolBar > * {{
+                border: none;
+            }}
+            
+            QToolBar > * > QToolButton, QPushButton {{
+                border: none;
             }}
             """

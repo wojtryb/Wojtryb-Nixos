@@ -2,127 +2,35 @@ background = "black"
 alternate = "black"
 tab_text_color = "#b4b4b4"
 active_text_color = "#eeeeee"
-small_tab_size = 9
-no_borders_style = " QToolBar { border: none; } "
-nu_toolbox_style = """
-            QWidget { 
-                background-color: #01808085;
-            }
-            
-            .QScrollArea { 
-                background-color: #00000000;
-            }
-            
-            QScrollArea * { 
-                background-color: #00000000;
-            }
-            
-            QScrollArea QToolTip {
-                background-color: #ffffff;                           
-            }
-            
-            QAbstractButton {
-                background-color: #70000000;
-                border: none;
-                border-radius: 4px;
-            }
-            
-            QAbstractButton:checked {
-                background-color: #aa306fa8;
-            }
-            
-            QAbstractButton:hover {
-                background-color: #1c1c1c;
-            }
-            
-            QAbstractButton:pressed {
-                background-color: #53728e;
-            }
-        """
-nu_tool_options_style = """
-            * { 
-                background-color: #00000000;
-            }
-            
-            .QScrollArea { 
-                background-color: #00000000;
-            }
-            
-            QScrollArea * { 
-                background-color: #00000000;
-            }
-            
-            QScrollArea QToolTip {
-                background-color: #ffffff;                           
-            }
-            
-            QToolButton, QPushButton {
-                background-color: #80000000;
-                border: none;
-                border-radius: 4px;
-            }
-            
-            QToolButton:checked, QPushButton:checked {
-                background-color: #aa306fa8;
-            }
-            
-            QToolButton:hover, QPushButton:hover {
-                background-color: #1c1c1c;
-            }
-            
-            QToolButton:pressed, QPushButton:pressed {
-                background-color: #53728e;
-            }
 
-            QAbstractSpinBox {
-                background-color: #80000000;
-                border: none;
-                border-radius: 4px;
-            }
-
-            QComboBox {
-                background-color: #80000000;
-                border: none;
-                border-radius: 4px;
-            }
-
-            KisSliderSpinBox {
-                background-color: #80000000;
-                border: none;
-            }
-        """
-small_tab_style = f"QTabBar::tab {{ height: {small_tab_size}px; }}"
-
-flat_tab_base_style = ""
-flat_tab_big_style = ""
-flat_tab_small_style = ""
-flat_main_window_style = ""
-flat_tools_style = ""
 flat_dock_style = ""
-flat_toolbar_style = ""
+flat_tools_style = ""
+flat_main_window_style = ""
 flat_menu_bar_style = ""
 flat_combo_box_style = ""
 flat_spin_box_style = ""
-flat_toolbox_style = ""
 flat_status_bar_style = ""
+flat_tab_base_style = ""
 flat_tree_view_style = ""
+flat_toolbar_style = ""
+
 flat_overview_docker_style = ""
+flat_tab_big_style = ""
 
 def buildFlatTheme():
-    global flat_tab_base_style
-    global flat_tab_big_style
-    global flat_tab_small_style
-    global flat_main_window_style
-    global flat_tools_style
     global flat_dock_style
-    global flat_toolbar_style
+    global flat_tools_style
+    global flat_main_window_style
     global flat_menu_bar_style
     global flat_combo_box_style
     global flat_spin_box_style
-    global flat_toolbox_style
     global flat_status_bar_style
+    global flat_tab_base_style
     global flat_tree_view_style
+    global flat_toolbar_style
+
     global flat_overview_docker_style 
+    global flat_tab_big_style
     
     flat_overview_docker_style = f"""
         * {{
@@ -164,13 +72,6 @@ def buildFlatTheme():
     flat_tab_big_style = f"""QTabBar::tab {{
             border-top-right-radius: 4px;
             border-top-left-radius: 4px;
-            padding: 8px;
-        }}"""
-    flat_tab_small_style = f""" 
-        QTabBar::tab {{
-            border-top-right-radius: 4px;
-            border-top-left-radius: 4px;
-            height: {small_tab_size}px;
             padding: 8px;
         }}"""
 
@@ -318,7 +219,6 @@ def buildFlatTheme():
             image: url(:16_light_draw-arrow-down.svg);
             width: 9px;
         }}"""
-    flat_toolbox_style = "* > QToolButton {border: none;}"
     flat_status_bar_style = f"QStatusBar {{ background-color: {background}; }}"
     flat_tree_view_style = f"""QTreeView {{
         background-color: {background}; 

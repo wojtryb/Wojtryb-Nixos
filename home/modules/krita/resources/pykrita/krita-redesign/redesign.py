@@ -7,6 +7,7 @@ class Redesign(Extension):
         super().__init__(parent)
 
     def setup(self):
+        pass
 
     def createActions(self, window):
         colors = ColorScheme(

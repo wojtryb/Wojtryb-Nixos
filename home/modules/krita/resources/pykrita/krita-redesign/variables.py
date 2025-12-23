@@ -2,9 +2,7 @@ background = "black"
 alternate = "black"
 tab_text_color = "#b4b4b4"
 active_text_color = "#eeeeee"
-
 small_tab_size = 9
-
 no_borders_style = " QToolBar { border: none; } "
 nu_toolbox_style = """
             QWidget { 

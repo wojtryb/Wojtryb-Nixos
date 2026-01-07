@@ -77,6 +77,7 @@
     kdePackages.kio-fuse # to mount remote filesystems via FUSE
     kdePackages.kio-extras # extra protocols support (sftp, fish and more)
     kdePackages.karchive # to open .zip files directly in dolphin
+    kdePackages.ark # to compress files into .zip from dolphin
     kdePackages.qtsvg
 
     # Core apps

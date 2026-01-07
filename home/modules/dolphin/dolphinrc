@@ -15,6 +15,7 @@ DirHistory[$e]=$HOME/Downloads/,$HOME/Desktop/
 [General]
 BrowseThroughArchives=true
 ConfirmClosingMultipleTabs=false
+ConfirmClosingTerminalRunningProgram=false
 GlobalViewProps=false
 OpenNewTabAfterLastTab=true
 RememberOpenedTabs=false
@@ -77,7 +78,7 @@ History=win,krit,dolp,kri,vlc,vie,ink,code,inks,inksc,cod,krita,firef,fire,vl
 IconSize=32
 
 [PreviewSettings]
-Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
 
 [Search]
 Location=Everywhere

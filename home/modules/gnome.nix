@@ -27,8 +27,16 @@
   dconf.enable = true;
   dconf.settings = {
 
-
-
+    # Apps in the dock
+    "org/gnome/shell" = { favorite-apps = [
+      "org.kde.dolphin.desktop"
+      "firefox.desktop"
+      "org.kde.konsole.desktop"
+      "org.kde.krita.desktop"
+      "code.desktop"
+      "spotify.desktop"
+      "steam.desktop"
+    ]; };
 
     # Power settings
     "org/gnome/settings-daemon/plugins/power" = {
@@ -101,7 +109,7 @@
       keep-aspect = true;
     };
     "org/gnome/desktop/peripherals/stylus/51803643" = {
-      pressure-curve = [0 26 74 100];    
+      pressure-curve = [0 50 50 100];    
       button-action = "middle";
       secondary-button-action = "keybinding";
       secondary-button-keybinding = "p";
@@ -169,7 +177,7 @@
       custom-theme-running-dots-border-width = 6;
       custom-background-color = false;
       transparency-mode = "FIXED";
-      background-opacity = 0.8;
+      background-opacity = 0.0;
     };
 
     # Extension: Just Perfection

@@ -1,4 +1,4 @@
-from krita import Extension, qApp, QPalette, QWidget
+from krita import Extension, QApplication, QPalette, QWidget
 from .color_scheme import ColorScheme
 
 
@@ -12,8 +12,10 @@ class KritaRedesign(Extension):
 
     def createActions(self, window):
         colors = ColorScheme(
-            background_color=qApp.palette().color(QPalette.Window).name(),
-            alternate_color=qApp.palette().color(QPalette.AlternateBase).name(),
+            background_color=QApplication.palette().color(
+                QPalette.ColorRole.Window).name(),
+            alternate_color=QApplication.palette().color(
+                QPalette.ColorRole.AlternateBase).name(),
             active_text_color="#eeeeee",
             tab_text_color="#b4b4b4",
         )

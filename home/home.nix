@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ./modules/autostart.nix
     ./modules/firefox.nix
     ./modules/gnome.nix
     ./modules/git.nix

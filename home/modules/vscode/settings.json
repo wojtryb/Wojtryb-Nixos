@@ -8,7 +8,7 @@
   "editor.formatOnSave": true,
   "python.analysis.typeCheckingMode": "strict",
   "python.analysis.diagnosticSeverityOverrides": {
-    "reportMissingImports": "none"
+    "reportMissingImports": "none",
   },
   "gitlens.currentLine.enabled": false,
   "gitlens.currentLine.pullRequests.enabled": false,
@@ -29,7 +29,8 @@
   "workbench.activityBar.location": "top",
   "terminal.integrated.scrollback": 10000,
   "[python]": {
-    "diffEditor.ignoreTrimWhitespace": true
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.defaultFormatter": "ms-python.autopep8",
   },
   "explorer.confirmDragAndDrop": false,
   "editor.multiCursorModifier": "ctrlCmd",
@@ -38,8 +39,10 @@
   "python.createEnvironment.trigger": "off",
   "workbench.editorAssociations": {
     "{hexdiff}:/**/*.*": "hexEditor.hexedit",
-    "*.bik_atlas": "hexEditor.hexedit"
+    "*.bik_atlas": "hexEditor.hexedit",
   },
   "markdown.preview.fontSize": 20,
-  "explorer.confirmPasteNative": false
+  "explorer.confirmPasteNative": false,
+  "workbench.editor.empty.hint": "hidden",
+  "python.defaultInterpreterPath": "/run/current-system/sw/bin/python",
 }

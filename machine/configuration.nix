@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs, pkgs-unstable, ... }:
 
 {
   imports = [
@@ -80,6 +80,7 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
+  nix.settings.experimental-features = "nix-command flakes";
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -97,11 +98,12 @@
     # Core apps
     kdePackages.kate # Simple code editor
     kdePackages.konsole # Terminal
-    krita # 2D Painting
+    pkgs-unstable.krita # 2D Painting
     inkscape # 2D Vector editing
-    (blender.override { # 3D modeling
-      cudaSupport = true;
-    })
+    # (blender.override { # 3D modeling
+    #   cudaSupport = true;
+    # })
+    pkgs-unstable.blender
     vscode # Advanced code editor
     spotify # Music
     firefox # Web

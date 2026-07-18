@@ -11,6 +11,8 @@
     ./modules/vscode
   ];
 
+  nixpkgs.config.allowUnfree = true;
+
   home.username = "wojtryb";
   home.homeDirectory = "/home/wojtryb";
 

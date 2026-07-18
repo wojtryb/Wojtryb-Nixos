@@ -4,6 +4,7 @@
   inputs = {
     # Nixpkgs
     nixpkgs.url = "github:nixos/nixpkgs/nixos-25.11";
+    unstable.url = "github:nixos/nixpkgs/nixos-unstable";
 
     # Home manager
     home-manager.url = "github:nix-community/home-manager/release-25.11";
@@ -16,23 +17,24 @@
     home-manager,
     ...
   } @ inputs: let
+    system = "x86_64-linux";
+    pkgs-unstable = inputs.unstable.legacyPackages.${system};
   in {
     # NixOS configuration entrypoint
-    # Available through 'nixos-rebuild --flake .#your-hostname'
     nixosConfigurations = {
       trybstation = nixpkgs.lib.nixosSystem {
-        specialArgs = {inherit inputs;};
+        inherit system;
+        specialArgs = {inherit inputs; inherit pkgs-unstable;};
         # > Our main nixos configuration file <
         modules = [./machine/configuration.nix];
       };
     };
 
     # Standalone home-manager configuration entrypoint
-    # Available through 'home-manager --flake .#your-username@your-hostname'
     homeConfigurations = {
       "wojtryb@trybstation" = home-manager.lib.homeManagerConfiguration {
         # Home-manager requires 'pkgs' instance
-        pkgs = nixpkgs.legacyPackages.x86_64-linux; # FIXME replace x86_64-linux with your architecture 
+        pkgs = nixpkgs.legacyPackages.x86_64-linux;
         extraSpecialArgs = {inherit inputs;};
         # > Our main home-manager configuration file <
         modules = [./home/home.nix];

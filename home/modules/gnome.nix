@@ -34,6 +34,7 @@
       "org.kde.konsole.desktop"
       "org.kde.krita.desktop"
       "code.desktop"
+      "blender.desktop"
       "spotify.desktop"
       "steam.desktop"
     ]; };
@@ -93,9 +94,9 @@
 
     # Keyboard
     "org/gnome/settings-daemon/plugins/media-keys" = {
-      previous = [ "<Super>F10" ];
-      play = [ "<Super>F11" ];
-      next = [ "<Super>F12" ];
+      previous = [ "AudioPrev" ];
+      play = [ "AudioPlay" ];
+      next = [ "AudioNext" ];
       reboot = [ "<Control>PowerOff" ];
     };
     "org/gnome/desktop/wm/keybindings" = { close = [ "<Control>grave" ]; };
@@ -113,6 +114,7 @@
       button-action = "middle";
       secondary-button-action = "keybinding";
       secondary-button-keybinding = "p";
+      # secondary-button-action = "right";
       tertiary-button-action = "default";
     };
 

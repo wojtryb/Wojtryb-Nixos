@@ -60,7 +60,7 @@ in
               url = "https://github.com/wojtryb?tab=repositories";
             }
             {
-              name = "KA";
+              name = "KritaArtists";
               url = "https://www.krita-artists.org/";
             }
             {

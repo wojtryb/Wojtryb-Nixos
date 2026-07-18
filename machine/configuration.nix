@@ -80,7 +80,16 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-  nix.settings.experimental-features = "nix-command flakes";
+
+  nix.settings = {
+    experimental-features = "nix-command flakes";
+    substituters = [
+      "https://cache.nixos-cuda.org" # Download compiled cuda instead of building it
+    ];
+    trusted-public-keys = [
+      "cache.nixos-cuda.org:74DUi4Ye579gUqzH4ziL9IyiJBlDpMRn9MBN8oNan9M="
+    ];
+  };
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -100,10 +109,10 @@
     kdePackages.konsole # Terminal
     pkgs-unstable.krita # 2D Painting
     inkscape # 2D Vector editing
-    # (blender.override { # 3D modeling
-    #   cudaSupport = true;
-    # })
-    pkgs-unstable.blender
+    # (pkgs-unstable.blender.override {
+    (blender.override { # 3D modeling
+      cudaSupport = true;
+    })
     vscode # Advanced code editor
     spotify # Music
     firefox # Web

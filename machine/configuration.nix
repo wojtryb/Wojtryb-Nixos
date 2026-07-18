@@ -40,8 +40,22 @@
     variant = "";
   };
 
-  services.displayManager.autoLogin.enable  = true;
+  services.displayManager.autoLogin.enable = true;
   services.displayManager.autoLogin.user = "wojtryb";
+  boot.plymouth.enable = true;
+  boot.plymouth.theme = "breeze";
+
+  # quiet boot...
+  boot.initrd.verbose = false;
+  boot.consoleLogLevel = 0;
+  boot.kernelParams = [
+    "quiet"
+    # "splash"
+    "rd.systemd.show_status=false"
+    "rd.udev.log_level=3"
+    "udev.log_priority=3"
+    "boot.shell_on_fail"
+  ];
 
   console.keyMap = "pl2";
 
@@ -54,8 +68,8 @@
     pulse.enable = true;
   };
 
-  # Disable touchpad
-  services.libinput.enable = false;
+  # Touchpad
+  services.libinput.enable = true;
 
   users.users.wojtryb = {
     isNormalUser = true;
@@ -85,16 +99,22 @@
     kdePackages.konsole # Terminal
     krita # 2D Painting
     inkscape # 2D Vector editing
-    blender # 3D modeling
+    (blender.override { # 3D modeling
+      cudaSupport = true;
+    })
     vscode # Advanced code editor
     spotify # Music
     firefox # Web
+    obs-studio # Recording
 
     # Programming packages
     python312
     python312Packages.pip
 
     # Utilities
+    killall
+    htop
+    screenfetch
     rar
     appimage-run # Running appimage files
 
@@ -137,6 +157,9 @@
             "rightcontrol" =  "rightmouse";
             "mute" =  "power";
             "capslock" = "noop";
+            "f10" = "previoussong";
+            "f11" = "playpause";
+            "f12" = "nextsong";
           };
         };
       };

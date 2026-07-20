@@ -155,6 +155,17 @@
     dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
   };
 
+  programs.bash.promptInit = ''
+    PROMPT_COLOR="1;31m"             # Color for superuser
+    ((UID)) && PROMPT_COLOR="1;32m"  # Color for regular user
+
+    parse_git_branch() {
+      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+    }
+
+    PS1="\[\033[1;33m\]>\[\033[$PROMPT_COLOR\] \w\[\033[1;33m\]\$(parse_git_branch):\[\033[0m\] "
+  '';
+
   # Remap some keyboard keys
   # keyd is used instead of kanata which caused cursor glitches for krita color selector popup
   services.keyd = {
@@ -164,6 +175,7 @@
         settings = {
           main = {
             # keyd list-keys
+
             "delete" = "print";
             "home" = "delete";
             "pageup" =  "noop";

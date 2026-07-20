@@ -6,9 +6,11 @@
 }:
 {
 
+  # TIP: Run "dconf watch /" to see what variables change when interacting with GUI
+
   home.sessionVariables = {
     QT_STYLE_OVERRIDE = "adwaita-dark";
-    QT_SCALE_FACTOR = 1.5;
+    QT_SCALE_FACTOR = 1.5;  # SCALE
   };
 
   gtk = {
@@ -48,7 +50,7 @@
 
     # Mutlitasking
     "org/gnome/desktop/interface" = {
-      text-scaling-factor = 1.7;
+      text-scaling-factor = 1.7;  # SCALE
       enable-hot-corners = false; # Disable overview on hover in top-left corner
       color-scheme = "prefer-dark"; # Use dark gnome theme
       accent-color = "orange";
@@ -68,7 +70,6 @@
       resize-with-right-button = false;
       num-workspaces = 6; # Amount of workspaces
       mouse-button-modifier = "<Super>";
-    
     };
     "org/gnome/shell/app-switcher" = { current-workspace-only = false; }; # Allow cycling between apps on different workspaces
 
@@ -81,6 +82,7 @@
     "org/gnome/desktop/screensaver" = {
       picture-uri = "file:///run/current-system/sw/share/backgrounds/gnome/blobs-l.svg";
       primary-color = "#241f31";
+      lock-enabled = false;
     };
 
     # Mouse and Touchpad

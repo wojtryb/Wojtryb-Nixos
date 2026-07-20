@@ -73,7 +73,7 @@ in
     };
 
     settings = {
-      "layout.css.devPixelsPerPx" = 0.9;
+      "layout.css.devPixelsPerPx" = 0.9;  # SCALE
       "browser.aboutwelcome.enabled" = false;
       "extensions.autoDisableScopes" = 0;
       "ui.key.menuAccessKeyFocuses" = false;

@@ -42,6 +42,10 @@
 
   services.displayManager.autoLogin.enable = true;
   services.displayManager.autoLogin.user = "wojtryb";
+  # To get rid of the keyring prompt on opening of applications, remove keyring password:
+  # nix-shell -p seahorse
+  # right click on "Login", and change password to blank
+
   boot.plymouth.enable = true;
   boot.plymouth.theme = "breeze";
 
@@ -50,7 +54,6 @@
   boot.consoleLogLevel = 0;
   boot.kernelParams = [
     "quiet"
-    # "splash"
     "rd.systemd.show_status=false"
     "rd.udev.log_level=3"
     "udev.log_priority=3"
@@ -91,8 +94,8 @@
     ];
   };
 
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
+  # List of packages installed in system profile. To search, run:
+  # nix search wget
   environment.systemPackages = with pkgs; [
 
     # File manager dolphin

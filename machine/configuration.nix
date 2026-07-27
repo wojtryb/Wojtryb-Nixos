@@ -163,7 +163,7 @@
       git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
     }
 
-    PS1="\[\033[1;33m\]>\[\033[$PROMPT_COLOR\] \w\[\033[1;33m\]\$(parse_git_branch):\[\033[0m\] "
+    PS1="\[\033[1;33m\]➜\[\033[$PROMPT_COLOR\] \w\[\033[1;33m\]\$(parse_git_branch):\[\033[0m\] "
   '';
 
   # Remap some keyboard keys

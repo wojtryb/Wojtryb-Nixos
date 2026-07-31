@@ -1,7 +1,8 @@
 { config, pkgs, ... }:
 
 # Path to this position. Relative links cannot be used directly to reference current file
-let current_path = "${builtins.toString ./.}"; in
+# let current_path = "${builtins.toString ./.}"; in
+let current_path = "${config.home.homeDirectory}/Code/Wojtryb-Nixos/home/modules/krita"; in
 {
   # Copy custom .desktop file with QT_FACTOR_SCALE set to 1
   # Local desktop file overrides global one installed with pkgs.krita

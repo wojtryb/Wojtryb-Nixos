@@ -1,7 +1,8 @@
 { config, pkgs, ... }:
 
 # Path to this position. Relative links cannot be used directly to reference current file
-let current_path = "${builtins.toString ./.}"; in
+# let current_path = "${builtins.toString ./.}"; in
+let current_path = "${config.home.homeDirectory}/Code/Wojtryb-Nixos/home/modules/dolphin"; in
 {
   # Holds config created with "Configure dolphin" (icon theme changed by hand)
   # /home/wojtryb/.config/dolphinrc

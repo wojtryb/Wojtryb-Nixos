@@ -1,0 +1,5 @@
+# Unison preferences
+dontchmod = true
+perms = 0
+root = /mnt/dane/Rodzina/Zdjecia/Zdjecia_Rodzina
+root = /mnt/home/Photos

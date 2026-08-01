@@ -10,6 +10,7 @@
     # ./modules/krita
     ./modules/resolve
     ./modules/vscode
+    ./modules/unison
   ];
 
   nixpkgs.config.allowUnfree = true;

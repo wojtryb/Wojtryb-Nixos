@@ -1,0 +1,5 @@
+# Unison preferences
+dontchmod = true
+perms = 0
+root = /mnt/video/filmy_rodzina
+root = /mnt/dane/Rodzina/Filmy

@@ -178,6 +178,8 @@
     candy-icons # Icons for app-selection and dolphin 
   #  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
   #  wget
+    tig
+    neovim
   ];
 
   # Enable nvidia driver

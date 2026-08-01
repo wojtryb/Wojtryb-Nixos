@@ -63,6 +63,16 @@
     variant = "";
   };
 
+
+  services.displayManager.autoLogin.enable = true;
+  services.displayManager.autoLogin.user = "ptryb";
+  # To get rid of the keyring prompt on opening of applications, remove keyring password:
+  # nix-shell -p seahorse
+  # right click on "Login", and change password to blank
+
+  boot.plymouth.enable = true;
+  boot.plymouth.theme = "breeze";
+
   # quiet boot...
   boot.initrd.verbose = false;
   boot.consoleLogLevel = 0;
@@ -150,6 +160,9 @@
     # Programming packages
     # python312
     # python312Packages.pip
+
+    davinci-resolve-studio
+    unison
 
     # Utilities
     git

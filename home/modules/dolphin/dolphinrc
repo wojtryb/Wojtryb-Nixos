@@ -16,7 +16,6 @@ DirHistory[$e]=$HOME/Downloads/,$HOME/Desktop/
 BrowseThroughArchives=true
 ConfirmClosingMultipleTabs=false
 ConfirmClosingTerminalRunningProgram=false
-GlobalViewProps=false
 OpenNewTabAfterLastTab=true
 RememberOpenedTabs=false
 ShowFullPath=true
@@ -90,7 +89,3 @@ ToolButtonStyle=IconOnly
 [ViewPropertiesDialog]
 DP-0 Height 3840x2160=715
 DP-0 Width 3840x2160=573
-
-# Change a theme. It can be installed as pkgs.sweet
-# [UiSettings] 
-# ColorScheme=Sweet

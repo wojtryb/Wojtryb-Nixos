@@ -52,20 +52,12 @@ in
           toolbar = true;  # global toolbar 
           bookmarks = [
             {
+              name = "Google";
+              url = "https://www.google.com";
+            }
+            {
               name = "YouTube";
               url = "https://www.youtube.com";
-            }
-            {
-              name = "GitHub";
-              url = "https://github.com/ptryb?tab=repositories";
-            }
-            {
-              name = "KritaArtists";
-              url = "https://www.krita-artists.org/";
-            }
-            {
-              name = "FaceBook";
-              url = "https://www.facebook.com/";
             }
           ];
         }
@@ -77,7 +69,7 @@ in
       "browser.aboutwelcome.enabled" = false;
       "extensions.autoDisableScopes" = 0;
       "ui.key.menuAccessKeyFocuses" = false;
-      "browser.startup.page" = 0;
+      "browser.startup.page" = 1;
       "browser.aboutConfig.showWarning" = false;
       "browser.tabs.closeWindowWithLastTab" = false;
       "browser.tabs.fadeOutUnloadedTabs" = true;
@@ -136,8 +128,8 @@ in
     containersForce = true;
 
     search.force = true;
-    search.default = "ddg";
-    search.order = [ "ddg" "google" ];
+    search.default = "google";
+    search.order = [ "google" "ddg" ];
     search.engines.bing.metaData.hidden = true;
     # search.engines.ebay.metaData.hidden = true; # Not working?
     search.engines.perplexity.metaData.hidden = true;

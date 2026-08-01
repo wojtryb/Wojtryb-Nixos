@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=AudioVideo;AudioVideoEditing;Video;Graphics
+Comment=Professional video editing, color, effects and audio post-processing
+Exec=davinci-resolve-studio
+GenericName=Video Editor
+Icon=DV_Resolve
+Name=Davinci Resolve Studio
+StartupWMClass=resolve
+Type=Application
+Version=1.5

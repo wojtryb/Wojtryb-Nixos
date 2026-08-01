@@ -10,7 +10,7 @@
 
   home.sessionVariables = {
     QT_STYLE_OVERRIDE = "adwaita-dark";
-    QT_SCALE_FACTOR = 1.5;  # SCALE
+    QT_SCALE_FACTOR = 1.0;  # SCALE
   };
 
   gtk = {
@@ -22,7 +22,7 @@
     cursorTheme = {
       name = "Numix-Cursor";
       package = pkgs.numix-cursor-theme;
-      size = 48;
+      size = 32;
     };
   };
   
@@ -34,23 +34,20 @@
       "org.kde.dolphin.desktop"
       "firefox.desktop"
       "org.kde.konsole.desktop"
-      # "org.kde.krita.desktop"
-      "code.desktop"
-      # "blender.desktop"
-      # "spotify.desktop"
-      # "steam.desktop"
+      "davinci-resolve-studio.desktop"
+      "unison.desktop"
     ]; };
 
     # Power settings
     "org/gnome/settings-daemon/plugins/power" = {
       power-button-action = "interactive"; # Ask for confirmation to shut down (power button is mapped on keyboard)
-      sleep-inactive-ac-type = "nothing"; # Never suspend desktop (Suspend is )
+      sleep-inactive-ac-type = "nothing"; # Never suspend desktop
     };
     "org/gnome/desktop/session" = { idle-delay = lib.gvariant.mkUint32 90; }; # Power off screen after that many seconds
 
     # Mutlitasking
     "org/gnome/desktop/interface" = {
-      text-scaling-factor = 1.7;  # SCALE
+      text-scaling-factor = 1.4;  # SCALE
       enable-hot-corners = false; # Disable overview on hover in top-left corner
       color-scheme = "prefer-dark"; # Use dark gnome theme
       accent-color = "orange";
@@ -156,7 +153,7 @@
       dock-fixed = false;
       autohide = false;
       intellihide = false;
-      dash-max-icon-size = 64;
+      dash-max-icon-size = 58;
       show-favorites = true;
       show-running = true;
       isolate-workspaces = false;
@@ -193,7 +190,7 @@
       activities-button = true;
       clock-menu = true;
       accessibility-menu = false;
-      quick-settings = false;
+      quick-settings = true;
       calendar = true;
       events-button = false;
       search = false;

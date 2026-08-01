@@ -8,6 +8,7 @@
     ./modules/git.nix
     ./modules/dolphin
     # ./modules/krita
+    ./modules/resolve
     ./modules/vscode
   ];
 

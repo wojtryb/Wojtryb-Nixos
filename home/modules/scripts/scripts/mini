@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo -n 'SKALA: '
+read SCALE
+
+for f in "$@"; do
+	ffmpeg -i "$f" -filter_complex '[0:v]scale=w=in_w/'$SCALE':h=-1[ov]' -map '[ov]' -c:v mjpeg -q:v 3 ${f%.*}_mini"$SCALE".mov
+done

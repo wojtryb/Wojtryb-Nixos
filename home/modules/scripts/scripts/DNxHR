@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo Konwersja MP4/DNxHR
+echo Wprowadz nazwe pliku bez rozszerzenia
+read name
+var1="$name"
+mp=".MP4"
+out=".MOV"
+par1="$var1$mp"
+par2="$var1$out"
+
+time ffmpeg -i $par1 -c:v dnxhd -profile:v dnxhr_lb -pix_fmt yuv422p -c:a pcm_s16le $par2
+echo Ukonczono, $par2

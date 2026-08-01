@@ -1,0 +1,12 @@
+if [ -z "$1" ]; then
+	echo AAAAAAAAAAAAAAAAAAAAAAA
+	exit
+fi
+for x in 1 2 3 4 5; do 
+	sudo echo $x
+	sleep 1
+done 
+
+sudo dfu-programmer atmega32u4 erase \
+ && sudo dfu-programmer atmega32u4 flash "$1" \
+ && sudo dfu-programmer atmega32u4 start

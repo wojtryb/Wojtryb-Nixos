@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+for f in "$@"; do
+	ffmpeg -r 30 -i "$f" -c:a pcm_s16le -c:v mjpeg -q:v 3 -an -r 30 "$f.mov"
+done

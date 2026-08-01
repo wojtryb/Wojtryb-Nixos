@@ -11,6 +11,7 @@
     ./modules/resolve
     ./modules/vscode
     ./modules/unison
+    ./modules/scripts
   ];
 
   nixpkgs.config.allowUnfree = true;

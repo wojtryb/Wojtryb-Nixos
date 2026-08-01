@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+find . -iname '*.jpg' -size +500k
+
+echo -n "Accept? [y/n] "
+read acc
+if [ "$acc" == "y" ]; then
+	find . -iname '*.jpg' -size +500k -exec chmod 0644 {} +
+	find . -iname '*.jpg' -size +500k -exec mogrify -verbose -quality 80 {} +
+else
+	echo "Cancelled"
+fi

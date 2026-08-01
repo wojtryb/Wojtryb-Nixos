@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo Konwersja webm - mp4 stereo
+echo Wprowadz nazwe pliku bez rozszerzenia
+read name
+var1="$name"
+mp=".webm"
+out=".out.mp4"
+par1="$var1$mp"
+par2="$var1$out"
+
+time ffmpeg -i $par1 -c:v copy -c:a aac $par2
+echo Ukonczono, $par2

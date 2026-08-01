@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+echo Konwersja mpg to mp4
+echo Wprowadz nazwe pliku bez rozszerzenia
+read name
+var1="$name"
+mp=".mpg"
+out=".mp4"
+par1="$var1$mp"
+par2="$var1$out"
+
+time ffmpeg -i $par1 -c:v libx264 -preset slow -crf 22 -c:a copy temp.mp4
+time ffmpeg -i temp.mp4 -c:v copy -c:a aac $par2
+rm temp.mp4
+
+echo Ukonczono, $par2

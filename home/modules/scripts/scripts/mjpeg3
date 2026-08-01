@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+FPS=${FPS:-30}
+
+for f in "$@"; do
+	ffmpeg -r $FPS -i "$f" -c:a pcm_s16le -c:v mjpeg -q:v 3 -r $FPS "$f.mov"
+done

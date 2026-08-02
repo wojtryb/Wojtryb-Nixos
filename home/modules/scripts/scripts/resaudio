@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+for f in "$@"; do
+	ffmpeg -i "$f" -vcodec copy -acodec mp3 "mp3_$f"
+	# rm "$f"
+	# mv "$f" "old_$f"
+	# ffmpeg -i "old_$f" -vcodec copy -acodec mp3 "$f"
+	# rm "old_$f"
+done

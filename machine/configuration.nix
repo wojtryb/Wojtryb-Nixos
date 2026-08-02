@@ -164,6 +164,8 @@
 
     davinci-resolve-studio
     unison
+    mpv
+    gimp
 
     # Utilities
     git

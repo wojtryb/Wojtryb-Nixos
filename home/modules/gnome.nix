@@ -35,6 +35,7 @@
       "firefox.desktop"
       "org.kde.konsole.desktop"
       "davinci-resolve-studio.desktop"
+      "gimp.desktop"
       "unison.desktop"
     ]; };
 

@@ -40,6 +40,10 @@
     source "${config.home.profileDirectory}/etc/profile.d/hm-session-vars.sh"
   '';
 
+  # Use hardware acceleration in mpv video player
+  home.file.".config/mpv/mpv.conf".text = ''hwdec=auto'';
+
+
   # desktop files are in
   # ~/.local/share/applications/
   # /run/current-system/sw/share/applications/

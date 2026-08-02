@@ -97,6 +97,8 @@
       play = [ "AudioPlay" ];
       next = [ "AudioNext" ];
       reboot = [ "<Control>PowerOff" ];
+      volume-down = [ "F11" ];
+      volume-up = [ "F12" ];
     };
     "org/gnome/desktop/wm/keybindings" = { close = [ "<Control>grave" ]; };
     "org/gnome/mutter" = { overlay-key = "Super"; };
@@ -120,10 +122,12 @@
     # Enable gnome extensions
     "org/gnome/shell" = {
       disable-user-extensions = false;
+      disabled-extensions = [];
       enabled-extensions = [
         "just-perfection-desktop@just-perfection"
         "dash-to-dock@micxgx.gmail.com"
         "blur-my-shell@aunetx"
+        "audio-switch-shortcuts@dbatis.github.com"
       ];
     };
 
@@ -219,13 +223,33 @@
       double-super-to-appgrid = false;
       switcher-popup-delay = false;
 
-      # Customize panel
+      # Extension: Customize panel
       accent-color-icon = false;
       top-panel-position = 0;
       clock-menu-position = 0;
       workspace-switcher-size = 12;
       animation = 7;
       notification-banner-position = 1;
+    };
+
+      # Audio shortcut
+    "org/gnome/shell/extensions/audio-switch-shortcuts" = {
+      cycle-output-hotkey = [ "F10" ];
+      show-notifications = true;
+      show-indicator = false;
+      play-audio-alert = true;
+      audio-devices = ''[
+        {"id":8,"name":"Headphones - Blackwire C3220 Headset","type":"OUTPUT","cycled":true,"active":true},
+        {"id":9,"name":"Digital Output (S/PDIF) - Blackwire C3220 Headset","type":"OUTPUT","cycled":false,"active":true},
+        {"id":12,"name":"Analog Output - AC511 Sound Bar","type":"OUTPUT","cycled":true,"active":true},
+        {"id":13,"name":"Digital Output (S/PDIF) - AC511 Sound Bar","type":"OUTPUT","cycled":false,"active":true},
+        {"id":19,"name":"Digital Output (S/PDIF) - Family 17h (Models 00h-0fh) HD Audio Controller","type":"OUTPUT","cycled":false,"active":true},
+        {"id":6,"name":"Headset Microphone - Blackwire C3220 Headset","type":"INPUT","cycled":false,"active":true},
+        {"id":7,"name":"Digital Input (S/PDIF) - Blackwire C3220 Headset","type":"INPUT","cycled":false,"active":true},
+        {"id":10,"name":"Line In - AC511 Sound Bar","type":"INPUT","cycled":false,"active":true},
+        {"id":11,"name":"Digital Input (S/PDIF) - AC511 Sound Bar","type":"INPUT","cycled":false,"active":true}
+      ]
+      '';
     };
   };
 }

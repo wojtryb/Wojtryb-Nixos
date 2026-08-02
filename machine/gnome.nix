@@ -68,6 +68,7 @@
     gnomeExtensions.blur-my-shell
     gnomeExtensions.just-perfection
     gnomeExtensions.dash-to-dock
+    gnomeExtensions.audio-switch-shortcuts
   ];
 
   # Enable KDE Connect. Do not use GSConnect (dedicated Gnome implementation) as its not working with dolphin

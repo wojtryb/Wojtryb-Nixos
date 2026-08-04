@@ -174,6 +174,7 @@
     screenfetch
     rar
     appimage-run # Running appimage files
+    imagemagick
 
     # Theming
     adwaita-qt6 # Theme for qt apps that looks like gnome theme 

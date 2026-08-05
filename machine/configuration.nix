@@ -119,7 +119,7 @@
     vscode # Advanced code editor
     spotify # Music
     firefox # Web
-    obs-studio # Recording
+    mpv # Video playback
 
     # Programming packages
     python312
@@ -153,6 +153,15 @@
     enable = true;
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
     dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+  };
+
+  programs.obs-studio = {
+    enable = true;
+    package = (
+      pkgs.obs-studio.override {
+        cudaSupport = true;  # Nvidia hardware acceleration
+      }
+    );
   };
 
   programs.bash.promptInit = ''

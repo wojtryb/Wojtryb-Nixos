@@ -1,5 +1,9 @@
-{ config, pkgs, pkgs-unstable, ... }:
-
+{ config, pkgs, ... }:
+let
+  unstableTarball =
+    fetchTarball
+      https://github.com/NixOS/nixpkgs/archive/nixos-unstable.tar.gz;
+in
 {
   imports = [
       ./hardware-configuration.nix
@@ -82,7 +86,15 @@
   };
 
   # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
+  # nixpkgs.config.allowUnfree = true;
+  nixpkgs.config = {
+    allowUnfree = true;
+    packageOverrides = pkgs: with pkgs; {
+      unstable = import unstableTarball {
+        config = config.nixpkgs.config;
+      };
+    };
+  };
 
   nix.settings = {
     experimental-features = "nix-command flakes";
@@ -110,10 +122,9 @@
     # Core apps
     kdePackages.kate # Simple code editor
     kdePackages.konsole # Terminal
-    pkgs-unstable.krita # 2D Painting
+    unstable.krita # 2D Painting
     inkscape # 2D Vector editing
-    # (pkgs-unstable.blender.override {
-    (blender.override { # 3D modeling
+    (unstable.blender.override { # 3D modeling
       cudaSupport = true;
     })
     vscode # Advanced code editor

@@ -34,7 +34,10 @@
   };
 
   programs.bash.enable = true;
-          
+  programs.bash.sessionVariables = {
+    HISTCONTROL="ignorespace"; # Ignore "cd" commands made by dolphin
+  };
+
   #  ~/.local/state/nix/profiles/profile/etc/profile.d/hm-session-vars.sh
   home.file.".profile".text = ''
     source "${config.home.profileDirectory}/etc/profile.d/hm-session-vars.sh"

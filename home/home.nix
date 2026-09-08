@@ -9,6 +9,7 @@
     ./modules/dolphin
     ./modules/krita
     ./modules/vscode
+    ./modules/blender
   ];
 
   nixpkgs.config.allowUnfree = true;
